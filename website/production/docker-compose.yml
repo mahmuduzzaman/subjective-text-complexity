@@ -11,11 +11,11 @@ services:
       - COUCHDB_USER=admin
       - COUCHDB_PASSWORD
   backend:
-    image: malfynnction/bachelor-backend:latest
+    image: stc_backend
     depends_on:
       - couchdb
   frontend:
-    image: malfynnction/bachelor-frontend:latest
+    image: stc_frontend
     restart: always
     depends_on:
       - backend
