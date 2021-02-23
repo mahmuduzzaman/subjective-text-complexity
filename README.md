@@ -1,4 +1,4 @@
-# Bachelor Thesis
+# subjective-text-complexity
 
 **Note:** Most of the functionality of the website, as well as automatic deployment, is currently disabled since the study is finished. To bring it back to working mode, change the variable `STUDY_IS_OPEN` in `.github/workflows/deploy.yml` and `website/.env` to `"true"`.
 
@@ -38,7 +38,9 @@ Unit tests can be run locally with `npm test`. They are also run automatically o
 
 ## Deploys
 
-The website is deployed automatically via github actions on every push to the `main` branch. The Docker Images for the frontend and backend are published on [dockerhub](https://hub.docker.com/u/malfynnction) and then started on the server via docker-compose (See `production` directory)
+The website is deployed automatically via github actions on every push to the `main` branch which is tagged as `release*`.
+~~The Docker Images for the frontend and backend are published on [dockerhub](https://hub.docker.com/u/malfynnction) and then started on the server via docker-compose (See `production` directory)~~
+Docker images are build locally. 
 
 ## Database
 
@@ -149,6 +151,9 @@ If you plan on doing in-person sessions, you should make sure nothing is saved t
 For every submitted survey, a confirmation token is generated and given to the participants. They will use this token to prove that they completed the survey. You can check the validity of given tokens by inserting the participant ID and token in `data/check-legitimacy.js` and running that script with `cd data && node check-legitimacy.js`. This will not only check whether the tokens are valid, but also download all ratings that the participant has submitted, so you can check if their answers seem legitimate.
 If you identify a participant as a scammer, you can paste their ID into `website/frontend/src/scamming-ids.json` so that it will be ignored for all further calculations and analysis.
 
+## License
+
+Contact: Babak Naderi
 ## License
 
 MIT License

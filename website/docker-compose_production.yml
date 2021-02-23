@@ -1,6 +1,7 @@
 version: '3.7'
 services:
   couchdb:
+    container_name: couchdb
     image: couchdb:2.3.1
     restart: always
     ports:
@@ -11,22 +12,30 @@ services:
       - COUCHDB_USER=admin
       - COUCHDB_PASSWORD
   backend:
-    image: stc_backend
+    build:
+      context: ./backend
+    container_name: backend
+    expose:
+      - "8080"
     depends_on:
       - couchdb
   frontend:
-    image: stc_frontend
+    container_name: frontend
+    build:
+      context: ./frontend
     restart: always
+    ports:
+      - 3000:3000
     depends_on:
       - backend
   nginx:
+    container_name: nginx
     image: nginx:1.17.8-alpine
-    restart: always
     ports:
       - 80:80
       - 443:443
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./production/nginx.conf:/etc/nginx/nginx.conf
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
     depends_on:

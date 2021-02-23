@@ -204,5 +204,14 @@ const server = app.listen(port, () => {
   console.log(`Backend server listening on Port ${port}`)
 })
 
+<<<<<<< HEAD
 process.on('SIGTERM', shutdown)
 process.on('SIGINT', shutdown)
+=======
+  process.on('SIGTERM', shutdown)
+  process.on('SIGINT', shutdown)
+}else{
+console.log(' Study is not open')
+
+}
+>>>>>>> reopen-study

@@ -42,9 +42,11 @@ const pouchItems = createDatabase('items')
 
 const emptyParticipant = { completedSessions: [] }
 
-const studyIsOpen = process.env.REACT_APP_STUDY_IS_OPEN === 'true'
+//const studyIsOpen = process.env.REACT_APP_STUDY_IS_OPEN === 'true'
+const studyIsOpen = true
 
 const App = () => {
+  console.log("Start APP :"+ studyIsOpen)
   const id = participantId.get()
   const [isLoggedIn, setLoggedIn] = useState(Boolean(id))
   const [trainingState, setTrainingState] = useState(trainingStore.get())

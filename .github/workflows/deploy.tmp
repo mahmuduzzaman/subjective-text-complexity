@@ -1,0 +1,64 @@
+name: Deploy
+
+on: push
+  tags:
+    - release* # push event with tags start by release
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Unit Tests
+        run: |
+          npm install
+          npm test
+  deploy:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    needs: test
+    env:
+      SERVER: text-stat.qu.tu-berlin.de
+      USER: adminuser
+      STUDY_IS_OPEN: True
+    steps:
+      - uses: actions/checkout@v2
+      - name: Publish Frontend
+        uses: elgohr/Publish-Docker-Github-Action@5d8ac99
+        with:
+          name: 'malfynnction/bachelor-frontend'
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          workdir: website/frontend
+          buildargs: STUDY_IS_OPEN
+          tags: 'latest'
+      - name: Publish Backend
+        uses: elgohr/Publish-Docker-Github-Action@5d8ac99
+        with:
+          name: 'malfynnction/bachelor-backend'
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          workdir: website/backend
+          buildargs: STUDY_IS_OPEN
+          tags: 'latest'
+      - name: Copy production dir to server
+        uses: appleboy/scp-action@edc8ec9
+        with:
+          host: ${{ env.SERVER }}
+          username: ${{ env.USER }}
+          key: ${{ secrets.PRIVATE_SSH_KEY  }}
+          source: website/production/*
+          target: production
+          strip_components: 2
+      - name: Deploy
+        if: ${{ env.STUDY_IS_OPEN }}
+        uses: fifsky/ssh-action@1f1f1ea
+        with:
+          command: |
+            cd production
+            echo "COUCHDB_PASSWORD=${{ secrets.COUCHDB_PASSWORD }}" > .env
+            docker-compose pull && docker-compose up -d
+            crontab ./cronfile
+          host: ${{ env.SERVER }}
+          user: ${{ env.USER }}
+          key: ${{ secrets.PRIVATE_SSH_KEY }}

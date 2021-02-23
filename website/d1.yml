@@ -1,0 +1,52 @@
+version: '3.7'
+services:
+  couchdb:
+    container_name: couchdb
+    image: couchdb:2.3.1
+    restart: always
+    ports:
+      - 127.0.0.1:5984:5984
+    volumes:
+      - ./production/couchdb/data:/opt/couchdb/data
+    environment:
+      - COUCHDB_USER=admin
+      - COUCHDB_PASSWORD
+  backend:
+    container_name: backend
+    build: 
+      context: ./backend
+    environment:
+      STUDY_IS_OPEN: "True"
+    depends_on:
+      - couchdb
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+    environment:
+      STUDY_IS_OPEN: "True"
+    restart: always
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+  nginx:
+    image: nginx:alpine 
+    container_name: nginx
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /home/adminuser/production/nginx.conf:/etc/nginx/nginx.conf
+      - /home/adminuser/production/certbot/conf:/etc/letsencrypt
+      - /home/adminuser/production/certbot/www:/var/www/certbot
+    depends_on:
+      - frontend
+  certbot:
+    image: certbot/certbot:v1.3.0
+    restart: always
+    volumes:
+      - /home/adminuser/production/certbot/conf:/etc/letsencrypt
+      - /home/adminuser/production/certbot/www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'while true; do certbot renew; sleep 43200; done'"

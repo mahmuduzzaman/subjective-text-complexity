@@ -1,0 +1,1907 @@
+{
+  "docs": [
+    {
+      "_id": "92",
+      "type": "paragraph",
+      "text": "Der allgemeine Stundenweltrekord für ausschließlich mit eigener Muskelkraft betriebene Fahrzeuge liegt deutlich über dem Rekord mit einem klassischen Rennrad. Die Französin Barbara Buatois fuhr mit einem vollverkleideten Liegerad am 19. Juli 2009 im US-amerikanischen Romeo eine Strecke von 84,02 km, womit sie als erste Frau eine Strecke von mehr als 80 km in einer Stunde mit einem Liegerad zurücklegte. Den aktuellen Stundenweltrekord der Männer hält der Schweizer Francesco Russo; er fuhr am 26. Juni 2016 im deutschen Klettwitz 92,43 km.[",
+      "sentences": [
+        "Der allgemeine Stundenweltrekord für ausschließlich mit eigener Muskelkraft betriebene Fahrzeuge liegt deutlich über dem Rekord mit einem klassischen Rennrad.",
+        "Die Französin Barbara Buatois fuhr mit einem vollverkleideten Liegerad am 19. Juli 2009 im US-amerikanischen Romeo eine Strecke von 84,02 km, womit sie als erste Frau eine Strecke von mehr als 80 km in einer Stunde mit einem Liegerad zurücklegte.",
+        "Den aktuellen Stundenweltrekord der Männer hält der Schweizer Francesco Russo; er fuhr am 26. Juni 2016 im deutschen Klettwitz 92,43 km.",
+        "["
+      ],
+      "clozes": [
+        {
+          "wordIndex": 2,
+          "original": "Stundenweltrekord",
+          "alternativeSuggestions": [
+            "Strecke",
+            "Fahrzeuge",
+            "Muskelkraft",
+            "Männer"
+          ]
+        },
+        {
+          "wordIndex": 54,
+          "original": "Stunde",
+          "alternativeSuggestions": [
+            "Klettwitz",
+            "Juli",
+            "Männer",
+            "Juni"
+          ]
+        },
+        {
+          "wordIndex": 20,
+          "original": "Französin",
+          "alternativeSuggestions": [
+            "Stunde",
+            "Juli",
+            "Muskelkraft",
+            "Fahrzeuge"
+          ]
+        },
+        {
+          "wordIndex": 14,
+          "original": "Rekord",
+          "alternativeSuggestions": [
+            "Muskelkraft",
+            "Fahrzeuge",
+            "Klettwitz",
+            "Rennrad"
+          ]
+        },
+        {
+          "wordIndex": 44,
+          "original": "Frau",
+          "alternativeSuggestions": [
+            "Rekord",
+            "Liegerad",
+            "Fahrzeuge",
+            "Muskelkraft"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "98",
+      "type": "paragraph",
+      "text": "Ein Geldautomat, Geldausgabeautomat (GAA), Bankautomat, Bankomat, Bancomat oder wie im Englischen ATM (Automated Teller Machine) ist ein technisches Gerät zur Bargeldabhebung in Selbstbedienung bei Geld- und Kreditinstituten vom eigenen Giro- oder Kreditkartenkonto (siehe auch Electronic Cash). Mittlerweile kann bei vielen Automaten auch eingezahlt werden, und bei einigen ist das in Fremdwährungen möglich. Der Geldausgabeautomat war – noch vor dem PC – das erste Computerterminal, das breiten Bevölkerungsschichten weltweit zugänglich war.",
+      "sentences": [
+        "Ein Geldautomat, Geldausgabeautomat (GAA), Bankautomat, Bankomat, Bancomat oder wie im Englischen ATM (Automated Teller Machine) ist ein technisches Gerät zur Bargeldabhebung in Selbstbedienung bei Geld- und Kreditinstituten vom eigenen Giro- oder Kreditkartenkonto (siehe auch Electronic Cash).",
+        "Mittlerweile kann bei vielen Automaten auch eingezahlt werden, und bei einigen ist das in Fremdwährungen möglich.",
+        "Der Geldausgabeautomat war – noch vor dem PC – das erste Computerterminal, das breiten Bevölkerungsschichten weltweit zugänglich war."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 50,
+          "original": "Fremdwährungen",
+          "alternativeSuggestions": [
+            "Bankomat",
+            "Bankautomat",
+            "Selbstbedienung",
+            "Bargeldabhebung"
+          ]
+        },
+        {
+          "wordIndex": 18,
+          "original": "Gerät",
+          "alternativeSuggestions": [
+            "Geldautomat",
+            "Fremdwährungen",
+            "Automaten",
+            "Bankautomat"
+          ]
+        },
+        {
+          "wordIndex": 14,
+          "original": "Machine",
+          "alternativeSuggestions": [
+            "Bargeldabhebung",
+            "Bancomat",
+            "Fremdwährungen",
+            "Geldausgabeautomat"
+          ]
+        },
+        {
+          "wordIndex": 64,
+          "original": "Bevölkerungsschichten",
+          "alternativeSuggestions": [
+            "Computerterminal",
+            "Bankautomat",
+            "Bargeldabhebung",
+            "Fremdwährungen"
+          ]
+        },
+        {
+          "wordIndex": 2,
+          "original": "Geldausgabeautomat",
+          "alternativeSuggestions": [
+            "Fremdwährungen",
+            "Bevölkerungsschichten",
+            "Kreditinstituten",
+            "Computerterminal"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "101",
+      "type": "paragraph",
+      "text": "Das Kernstück eines „GAA“ ist ein gepanzerter Tresor, der in Deutschland in der Regel vier Geldkassetten enthält, die jeweils 2800 Euro-Geldnoten aufnehmen können. Der Tresor ist in der Regel fest eingemauert oder auf andere Weise mit dem Boden oder der Wand armiert. Weitergehende Sicherungsmaßnahmen können eine Videoüberwachung und eine Zugangskontrolle durch einen Türöffner sein, denn viele GAA befinden sich in Vorräumen der Geschäftsstellen der Banken, sodass sie auch außerhalb der Schalteröffnungszeiten zugänglich sind. Zunehmend werden Geldautomaten in Gebäuden von Einkaufszentren, in Bahnhöfen oder an anderen öffentlich zugänglichen Orten aufgestellt.",
+      "sentences": [
+        "Das Kernstück eines „GAA“ ist ein gepanzerter Tresor, der in Deutschland in der Regel vier Geldkassetten enthält, die jeweils 2800 Euro-Geldnoten aufnehmen können.",
+        "Der Tresor ist in der Regel fest eingemauert oder auf andere Weise mit dem Boden oder der Wand armiert.",
+        "Weitergehende Sicherungsmaßnahmen können eine Videoüberwachung und eine Zugangskontrolle durch einen Türöffner sein, denn viele GAA befinden sich in Vorräumen der Geschäftsstellen der Banken, sodass sie auch außerhalb der Schalteröffnungszeiten zugänglich sind.",
+        "Zunehmend werden Geldautomaten in Gebäuden von Einkaufszentren, in Bahnhöfen oder an anderen öffentlich zugänglichen Orten aufgestellt."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 15,
+          "original": "Geldkassetten",
+          "alternativeSuggestions": [
+            "Geldautomaten",
+            "Orten",
+            "Tresor",
+            "Euro-Geldnoten"
+          ]
+        },
+        {
+          "wordIndex": 46,
+          "original": "Videoüberwachung",
+          "alternativeSuggestions": [
+            "Orten",
+            "Weise",
+            "Banken",
+            "Gebäuden"
+          ]
+        },
+        {
+          "wordIndex": 81,
+          "original": "Bahnhöfen",
+          "alternativeSuggestions": [
+            "Euro-Geldnoten",
+            "Sicherungsmaßnahmen",
+            "Kernstück",
+            "Weise"
+          ]
+        },
+        {
+          "wordIndex": 75,
+          "original": "Geldautomaten",
+          "alternativeSuggestions": [
+            "Geldkassetten",
+            "Orten",
+            "Boden",
+            "Gebäuden"
+          ]
+        },
+        {
+          "wordIndex": 28,
+          "original": "Regel",
+          "alternativeSuggestions": [
+            "Kernstück",
+            "Einkaufszentren",
+            "Orten",
+            "Geldautomaten"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "103",
+      "type": "paragraph",
+      "text": "Die mobile Installation ist möglich; Geldautomaten gehören auf großen Kreuzfahrtschiffen und Fährschiffen zum Standard. Große US-amerikanische Kriegsschiffe der US Navy haben ebenfalls Geldautomaten an Bord. Mobile Bankfilialen – vor allem in ländlichen Regionen eingesetzt – führen einen Geldautomaten mit sich.",
+      "sentences": [
+        "Die mobile Installation ist möglich; Geldautomaten gehören auf großen Kreuzfahrtschiffen und Fährschiffen zum Standard.",
+        "Große US-amerikanische Kriegsschiffe der US Navy haben ebenfalls Geldautomaten an Bord.",
+        "Mobile Bankfilialen – vor allem in ländlichen Regionen eingesetzt – führen einen Geldautomaten mit sich."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 9,
+          "original": "Kreuzfahrtschiffen",
+          "alternativeSuggestions": [
+            "Geldautomaten",
+            "Bankfilialen",
+            "Regionen",
+            "Kriegsschiffe"
+          ]
+        },
+        {
+          "wordIndex": 35,
+          "original": "Geldautomaten",
+          "alternativeSuggestions": [
+            "Standard",
+            "Kriegsschiffe",
+            "Kreuzfahrtschiffen",
+            "Bord"
+          ]
+        },
+        {
+          "wordIndex": 13,
+          "original": "Standard",
+          "alternativeSuggestions": [
+            "Regionen",
+            "Fährschiffen",
+            "Bord",
+            "Kriegsschiffe"
+          ]
+        },
+        {
+          "wordIndex": 24,
+          "original": "Bord",
+          "alternativeSuggestions": [
+            "Bankfilialen",
+            "Installation",
+            "Kriegsschiffe",
+            "Regionen"
+          ]
+        },
+        {
+          "wordIndex": 16,
+          "original": "Kriegsschiffe",
+          "alternativeSuggestions": [
+            "Bankfilialen",
+            "Geldautomaten",
+            "Bord",
+            "Fährschiffen"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "108",
+      "type": "paragraph",
+      "text": "Die Standardstückelung des ausgezahlten Geldes kann sich unterscheiden. So zahlt z. B. die Sparkasse in Deutschland 50 Euro als 2 × 5 Euro, 2 × 10 Euro und zuletzt 20 Euro aus. In Österreich zahlt das gleiche Institut einen 50-Euro-Schein aus.",
+      "sentences": [
+        "Die Standardstückelung des ausgezahlten Geldes kann sich unterscheiden.",
+        "So zahlt z. B. die Sparkasse in Deutschland 50 Euro als 2 × 5 Euro, 2 × 10 Euro und zuletzt 20 Euro aus.",
+        "In Österreich zahlt das gleiche Institut einen 50-Euro-Schein aus."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 26,
+          "original": "Euro",
+          "alternativeSuggestions": [
+            "Standardstückelung",
+            "50-Euro-Schein",
+            "Institut",
+            "Geldes"
+          ]
+        },
+        {
+          "wordIndex": 39,
+          "original": "50-Euro-Schein",
+          "alternativeSuggestions": [
+            "Geldes",
+            "Institut",
+            "Standardstückelung",
+            "Sparkasse"
+          ]
+        },
+        {
+          "wordIndex": 37,
+          "original": "Institut",
+          "alternativeSuggestions": [
+            "Euro",
+            "Geldes",
+            "50-Euro-Schein",
+            "Standardstückelung"
+          ]
+        },
+        {
+          "wordIndex": 4,
+          "original": "Geldes",
+          "alternativeSuggestions": [
+            "Euro",
+            "50-Euro-Schein",
+            "Sparkasse",
+            "Standardstückelung"
+          ]
+        },
+        {
+          "wordIndex": 30,
+          "original": "Euro",
+          "alternativeSuggestions": [
+            "Standardstückelung",
+            "Institut",
+            "Sparkasse",
+            "Geldes"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "157",
+      "type": "paragraph",
+      "text": "Umgangssprachlich wird die Schallplatte auch als Platte oder mit den aus der Jugendsprache stammenden Begriffen Scheibe beziehungsweise Vinyl bezeichnet. Das Wort Schallplatte wurde bereits zur Zeit der Grammophon-Ära geprägt. Der seit dem Produktionsende der Grammophonplatten wesentlich geläufigere Begriff Schellackplatte grenzt diesen älteren Tonträger deutlich von der späteren Schallplatte aus Polyvinylchlorid ab.",
+      "sentences": [
+        "Umgangssprachlich wird die Schallplatte auch als Platte oder mit den aus der Jugendsprache stammenden Begriffen Scheibe beziehungsweise Vinyl bezeichnet.",
+        "Das Wort Schallplatte wurde bereits zur Zeit der Grammophon-Ära geprägt.",
+        "Der seit dem Produktionsende der Grammophonplatten wesentlich geläufigere Begriff Schellackplatte grenzt diesen älteren Tonträger deutlich von der späteren Schallplatte aus Polyvinylchlorid ab."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 6,
+          "original": "Platte",
+          "alternativeSuggestions": [
+            "Grammophon-Ära",
+            "Wort",
+            "Jugendsprache",
+            "Tonträger"
+          ]
+        },
+        {
+          "wordIndex": 3,
+          "original": "Schallplatte",
+          "alternativeSuggestions": [
+            "Platte",
+            "Begriff",
+            "Zeit",
+            "Jugendsprache"
+          ]
+        },
+        {
+          "wordIndex": 20,
+          "original": "Wort",
+          "alternativeSuggestions": [
+            "Begriff",
+            "Jugendsprache",
+            "Tonträger",
+            "Grammophon-Ära"
+          ]
+        },
+        {
+          "wordIndex": 47,
+          "original": "Schallplatte",
+          "alternativeSuggestions": [
+            "Grammophon-Ära",
+            "Begriff",
+            "Wort",
+            "Grammophonplatten"
+          ]
+        },
+        {
+          "wordIndex": 21,
+          "original": "Schallplatte",
+          "alternativeSuggestions": [
+            "Tonträger",
+            "Platte",
+            "Grammophon-Ära",
+            "Produktionsende"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "163",
+      "type": "paragraph",
+      "text": "In den folgenden Monaten entwickelte Berliner in Zusammenarbeit mit dem Techniker Werner Suess sein Verfahren weiter, indem er das rußbeschichtete Glas durch eine mit Wachs überzogene Zink- oder Kupferplatte ersetzte. Nach der Gravur der Schallrille in die Wachsschicht wurde die Platte einem Säurebad ausgesetzt, das die noch mit Wachs bedeckten Teile der Platte nicht angriff, die freigelegten Rillen aber in das Metall einätzte, so dass nach Entfernung des Wachses eine haltbare metallene Urplatte entstand, die zur Herstellung der Pressmatrizen verwendet werden konnte. Am 16. Mai 1888 präsentierte Berliner ein erstes funktionsfähiges Gerät den Wissenschaftlern des Franklin Institute in Philadelphia. Der zeittypischen Vorliebe für Gräzismen folgend nannte er es Grammophon (sinngemäß: „geschriebener Laut“).",
+      "sentences": [
+        "In den folgenden Monaten entwickelte Berliner in Zusammenarbeit mit dem Techniker Werner Suess sein Verfahren weiter, indem er das rußbeschichtete Glas durch eine mit Wachs überzogene Zink- oder Kupferplatte ersetzte.",
+        "Nach der Gravur der Schallrille in die Wachsschicht wurde die Platte einem Säurebad ausgesetzt, das die noch mit Wachs bedeckten Teile der Platte nicht angriff, die freigelegten Rillen aber in das Metall einätzte, so dass nach Entfernung des Wachses eine haltbare metallene Urplatte entstand, die zur Herstellung der Pressmatrizen verwendet werden konnte.",
+        "Am 16. Mai 1888 präsentierte Berliner ein erstes funktionsfähiges Gerät den Wissenschaftlern des Franklin Institute in Philadelphia.",
+        "Der zeittypischen Vorliebe für Gräzismen folgend nannte er es Grammophon (sinngemäß: „geschriebener Laut“)."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 66,
+          "original": "Entfernung",
+          "alternativeSuggestions": [
+            "Pressmatrizen",
+            "Wachses",
+            "Urplatte",
+            "Herstellung"
+          ]
+        },
+        {
+          "wordIndex": 3,
+          "original": "Monaten",
+          "alternativeSuggestions": [
+            "Wissenschaftlern",
+            "Pressmatrizen",
+            "Rillen",
+            "Berliner"
+          ]
+        },
+        {
+          "wordIndex": 101,
+          "original": "Vorliebe",
+          "alternativeSuggestions": [
+            "Gräzismen",
+            "Gerät",
+            "Gravur",
+            "Mai"
+          ]
+        },
+        {
+          "wordIndex": 87,
+          "original": "Berliner",
+          "alternativeSuggestions": [
+            "Teile",
+            "Metall",
+            "Monaten",
+            "Wachsschicht"
+          ]
+        },
+        {
+          "wordIndex": 40,
+          "original": "Platte",
+          "alternativeSuggestions": [
+            "Schallrille",
+            "Säurebad",
+            "Franklin",
+            "Rillen"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "240",
+      "type": "paragraph",
+      "text": "Ein Spielwürfel, umgangssprachlich einfach (wie auch ursprünglich) Würfel (von althochdeutsch wurfil: verwandt mit Wurf und werfen), ist ein Gegenstand, der nach einem Wurf auf einer waagerechten Ebene eine von mehreren unterscheidbaren stabilen Ruhelagen einnimmt und in vielen Spielen zum Erzeugen eines zufälligen Symbols (oft einer Zufallszahl) dient. Dazu trägt ein Würfel Symbole, von denen eines nach dem Wurf eine ausgezeichnete Lage einnimmt. Dieses Symbol gilt dann als Ergebnis des Wurfes.",
+      "sentences": [
+        "Ein Spielwürfel, umgangssprachlich einfach (wie auch ursprünglich) Würfel (von althochdeutsch wurfil: verwandt mit Wurf und werfen), ist ein Gegenstand, der nach einem Wurf auf einer waagerechten Ebene eine von mehreren unterscheidbaren stabilen Ruhelagen einnimmt und in vielen Spielen zum Erzeugen eines zufälligen Symbols (oft einer Zufallszahl) dient.",
+        "Dazu trägt ein Würfel Symbole, von denen eines nach dem Wurf eine ausgezeichnete Lage einnimmt.",
+        "Dieses Symbol gilt dann als Ergebnis des Wurfes."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 26,
+          "original": "Ebene",
+          "alternativeSuggestions": [
+            "Symbol",
+            "Ruhelagen",
+            "Spielen",
+            "Lage"
+          ]
+        },
+        {
+          "wordIndex": 50,
+          "original": "Würfel",
+          "alternativeSuggestions": [
+            "Spielen",
+            "Erzeugen",
+            "Symbols",
+            "Spielwürfel"
+          ]
+        },
+        {
+          "wordIndex": 32,
+          "original": "Ruhelagen",
+          "alternativeSuggestions": [
+            "Wurf",
+            "Ergebnis",
+            "Symbole",
+            "Ebene"
+          ]
+        },
+        {
+          "wordIndex": 13,
+          "original": "Wurf",
+          "alternativeSuggestions": [
+            "Lage",
+            "Symbols",
+            "Erzeugen",
+            "Zufallszahl"
+          ]
+        },
+        {
+          "wordIndex": 1,
+          "original": "Spielwürfel",
+          "alternativeSuggestions": [
+            "Erzeugen",
+            "Würfel",
+            "Lage",
+            "Ebene"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "243",
+      "type": "paragraph",
+      "text": "Darüber hinaus sind Würfel in einer Vielzahl von Brettspielen bedeutend, um etwa die Bewegungsgeschwindigkeit von Spielfiguren oder den Ausgang von Zufallsereignissen zu bestimmen. Auch hier kommen in erster Linie Sechsseiter zum Einsatz. Verwendung finden Würfel in Rollenspielen, bei denen sich in den letzten Jahrzehnten die Verwendung einer Vielzahl weiterer Würfel mit anderen Seitenzahlen durchgesetzt hat, um die Zufallsentscheidungen flexibler und vielfältiger zu gestalten. Ein eher seltenes, komplett auf Würfel als Spielmaterial setzendes Spielprinzip ist das der Sammelwürfelspiele, bei denen man analog zu Sammelkartenspielen eine Vielzahl von Würfeln käuflich erwerben und taktisch einsetzen muss. Der bekannteste Vertreter ist Dragon Dice.",
+      "sentences": [
+        "Darüber hinaus sind Würfel in einer Vielzahl von Brettspielen bedeutend, um etwa die Bewegungsgeschwindigkeit von Spielfiguren oder den Ausgang von Zufallsereignissen zu bestimmen.",
+        "Auch hier kommen in erster Linie Sechsseiter zum Einsatz.",
+        "Verwendung finden Würfel in Rollenspielen, bei denen sich in den letzten Jahrzehnten die Verwendung einer Vielzahl weiterer Würfel mit anderen Seitenzahlen durchgesetzt hat, um die Zufallsentscheidungen flexibler und vielfältiger zu gestalten.",
+        "Ein eher seltenes, komplett auf Würfel als Spielmaterial setzendes Spielprinzip ist das der Sammelwürfelspiele, bei denen man analog zu Sammelkartenspielen eine Vielzahl von Würfeln käuflich erwerben und taktisch einsetzen muss.",
+        "Der bekannteste Vertreter ist Dragon Dice."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 70,
+          "original": "Spielmaterial",
+          "alternativeSuggestions": [
+            "Verwendung",
+            "Zufallsentscheidungen",
+            "Brettspielen",
+            "Rollenspielen"
+          ]
+        },
+        {
+          "wordIndex": 84,
+          "original": "Vielzahl",
+          "alternativeSuggestions": [
+            "Linie",
+            "Ausgang",
+            "Rollenspielen",
+            "Spielfiguren"
+          ]
+        },
+        {
+          "wordIndex": 43,
+          "original": "Jahrzehnten",
+          "alternativeSuggestions": [
+            "Sammelwürfelspiele",
+            "Verwendung",
+            "Zufallsereignissen",
+            "Einsatz"
+          ]
+        },
+        {
+          "wordIndex": 45,
+          "original": "Verwendung",
+          "alternativeSuggestions": [
+            "Seitenzahlen",
+            "Würfel",
+            "Einsatz",
+            "Brettspielen"
+          ]
+        },
+        {
+          "wordIndex": 3,
+          "original": "Würfel",
+          "alternativeSuggestions": [
+            "Linie",
+            "Würfeln",
+            "Rollenspielen",
+            "Jahrzehnten"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "244",
+      "type": "paragraph",
+      "text": "In allen diesen Bereichen gibt es neben dem einfachen Wurf eines Würfels auch Gelegenheiten, bei denen mehrere Würfel gleichzeitig zu werfen sind. Dabei können die Ergebnisse addiert werden (eine Waffe in einem Rollenspiel richtet soviel Schaden an, wie zwei Würfel zusammen anzeigen) oder als Ensemble betrachtet werden (bei vielen Brettspielen folgen besondere Aktionen, wenn mehrere Würfel die gleiche Zahl zeigen, bei einem sogenannten Pasch). Um das Werfen mehrerer Würfel zu vereinfachen, Schummeln durch Trickwürfe zu vermeiden oder das Ergebnis vor anderen Spielern zu verbergen, kommen Würfelbecher (Knobelbecher genannt) zum Einsatz. Hochwertige Exemplare besitzen innen sogenannte Lippen, damit die Würfel beim Herausrollen in jedem Fall springen. Dies soll das Wurfergebnis unabhängig von der ursprünglichen Lage der Würfel machen. Dem gleichen Zweck dient der Würfelturm. Um laute Aufprallgeräusche und ein Wegrollen der Würfel zu vermeiden, wird manchmal ein gepolstertes und berandetes Brett (Würfelbrett oder Würfelteller genannt) eingesetzt.",
+      "sentences": [
+        "In allen diesen Bereichen gibt es neben dem einfachen Wurf eines Würfels auch Gelegenheiten, bei denen mehrere Würfel gleichzeitig zu werfen sind.",
+        "Dabei können die Ergebnisse addiert werden (eine Waffe in einem Rollenspiel richtet soviel Schaden an, wie zwei Würfel zusammen anzeigen) oder als Ensemble betrachtet werden",
+        "(bei vielen Brettspielen folgen besondere Aktionen, wenn mehrere Würfel die gleiche Zahl zeigen, bei einem sogenannten Pasch).",
+        "Um das Werfen mehrerer Würfel zu vereinfachen, Schummeln durch Trickwürfe zu vermeiden oder das Ergebnis vor anderen Spielern zu verbergen, kommen Würfelbecher (Knobelbecher genannt) zum Einsatz.",
+        "Hochwertige Exemplare besitzen innen sogenannte Lippen, damit die Würfel beim Herausrollen in jedem Fall springen.",
+        "Dies soll das Wurfergebnis unabhängig von der ursprünglichen Lage der Würfel machen.",
+        "Dem gleichen Zweck dient der Würfelturm.",
+        "Um laute Aufprallgeräusche und ein Wegrollen der Würfel zu vermeiden, wird manchmal ein gepolstertes und berandetes Brett (Würfelbrett oder Würfelteller genannt) eingesetzt."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 142,
+          "original": "Würfelteller",
+          "alternativeSuggestions": [
+            "Bereichen",
+            "Brett",
+            "Gelegenheiten",
+            "Würfels"
+          ]
+        },
+        {
+          "wordIndex": 140,
+          "original": "Würfelbrett",
+          "alternativeSuggestions": [
+            "Werfen",
+            "Trickwürfe",
+            "Exemplare",
+            "Schaden"
+          ]
+        },
+        {
+          "wordIndex": 11,
+          "original": "Würfels",
+          "alternativeSuggestions": [
+            "Wegrollen",
+            "Würfel",
+            "Lippen",
+            "Werfen"
+          ]
+        },
+        {
+          "wordIndex": 119,
+          "original": "Zweck",
+          "alternativeSuggestions": [
+            "Waffe",
+            "Würfelbecher",
+            "Fall",
+            "Pasch"
+          ]
+        },
+        {
+          "wordIndex": 73,
+          "original": "Trickwürfe",
+          "alternativeSuggestions": [
+            "Ergebnis",
+            "Fall",
+            "Aufprallgeräusche",
+            "Würfelbecher"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "247",
+      "type": "paragraph",
+      "text": "Wenn man von diesen Abweichungen absieht, dann ist Idealität eine Eigenschaft des Bauplans des Würfels, also unter anderem seiner geometrischen Form. Der Bauplan ist genau dann ideal, wenn die Ruhepositionen des Würfels aufgrund seiner Symmetrie erst durch eine Beschriftung unterscheidbar werden. Ein Würfel wird meistens nach einem konvexen Polyeder gestaltet. Ein solches ist genau dann ideal, wenn seine Flächen alle die gleiche Form und Größe haben, und wenn man zwei Flächen nicht anhand ihrer relativen Position zu den anderen Flächen unterscheiden kann. Diese Bedingung erfüllen nur die fünf platonischen Körper, die catalanischen Körper, und gewisse Verzerrte dieser beiden Klassen, sowie Spindeln und Walzen. Nebenbei werden diese Formen wegen ihrer Symmetrie als besonders ästhetisch empfunden.",
+      "sentences": [
+        "Wenn man von diesen Abweichungen absieht, dann ist Idealität eine Eigenschaft des Bauplans des Würfels, also unter anderem seiner geometrischen Form.",
+        "Der Bauplan ist genau dann ideal, wenn die Ruhepositionen des Würfels aufgrund seiner Symmetrie erst durch eine Beschriftung unterscheidbar werden.",
+        "Ein Würfel wird meistens nach einem konvexen Polyeder gestaltet.",
+        "Ein solches ist genau dann ideal, wenn seine Flächen alle die gleiche Form und Größe haben, und wenn man zwei Flächen nicht anhand ihrer relativen Position zu den anderen Flächen unterscheiden kann.",
+        "Diese Bedingung erfüllen nur die fünf platonischen Körper, die catalanischen Körper, und gewisse Verzerrte dieser beiden Klassen, sowie Spindeln und Walzen.",
+        "Nebenbei werden diese Formen wegen ihrer Symmetrie als besonders ästhetisch empfunden."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 100,
+          "original": "Spindeln",
+          "alternativeSuggestions": [
+            "Würfels",
+            "Polyeder",
+            "Walzen",
+            "Körper"
+          ]
+        },
+        {
+          "wordIndex": 14,
+          "original": "Würfels",
+          "alternativeSuggestions": [
+            "Beschriftung",
+            "Polyeder",
+            "Ruhepositionen",
+            "Würfel"
+          ]
+        },
+        {
+          "wordIndex": 4,
+          "original": "Abweichungen",
+          "alternativeSuggestions": [
+            "Eigenschaft",
+            "Flächen",
+            "Ruhepositionen",
+            "Klassen"
+          ]
+        },
+        {
+          "wordIndex": 31,
+          "original": "Würfels",
+          "alternativeSuggestions": [
+            "Flächen",
+            "Spindeln",
+            "Polyeder",
+            "Eigenschaft"
+          ]
+        },
+        {
+          "wordIndex": 34,
+          "original": "Symmetrie",
+          "alternativeSuggestions": [
+            "Position",
+            "Form",
+            "Beschriftung",
+            "Eigenschaft"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "250",
+      "type": "paragraph",
+      "text": "Gelegentlich wird die Wahrscheinlichkeitsverteilung bewusst zugunsten bestimmter Ergebnisse manipuliert, möglichst ohne den Würfel optisch zu verändern, um sich im Spiel einen Vorteil zu verschaffen. In diesem Fall nennt man den Würfel gezinkt. Die Möglichkeiten beinhalten das Verändern der Gewichtsverteilung, unterschiedlich stark abgerundete Kanten oder Ecken sowie verzogene Flächen. Zu stark gezinkte Würfel verraten sich durch eine torkelnde Rollbewegung, was beim Einsatz eines Würfelbechers aber nicht auffällt. Eine weitere Möglichkeit ist es, im Inneren des Würfels einen Dauermagneten zu platzieren, um den Würfelwurf bei Bedarf durch einen zweiten Magneten, den man z. B. unter die Tischplatte hält, zu beeinflussen. Um das Zinken zu erschweren, werden in Kasinos oft transparente Würfel eingesetzt.",
+      "sentences": [
+        "Gelegentlich wird die Wahrscheinlichkeitsverteilung bewusst zugunsten bestimmter Ergebnisse manipuliert, möglichst ohne den Würfel optisch zu verändern, um sich im Spiel einen Vorteil zu verschaffen.",
+        "In diesem Fall nennt man den Würfel gezinkt.",
+        "Die Möglichkeiten beinhalten das Verändern der Gewichtsverteilung, unterschiedlich stark abgerundete Kanten oder Ecken sowie verzogene Flächen.",
+        "Zu stark gezinkte Würfel verraten sich durch eine torkelnde Rollbewegung, was beim Einsatz eines Würfelbechers aber nicht auffällt.",
+        "Eine weitere Möglichkeit ist es, im Inneren des Würfels einen Dauermagneten zu platzieren, um den Würfelwurf bei Bedarf durch einen zweiten Magneten, den man z. B. unter die Tischplatte hält, zu beeinflussen.",
+        "Um das Zinken zu erschweren, werden in Kasinos oft transparente Würfel eingesetzt."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 87,
+          "original": "Magneten",
+          "alternativeSuggestions": [
+            "Zinken",
+            "Einsatz",
+            "Tischplatte",
+            "Würfelwurf"
+          ]
+        },
+        {
+          "wordIndex": 44,
+          "original": "Ecken",
+          "alternativeSuggestions": [
+            "Vorteil",
+            "Kanten",
+            "Bedarf",
+            "Möglichkeit"
+          ]
+        },
+        {
+          "wordIndex": 36,
+          "original": "Verändern",
+          "alternativeSuggestions": [
+            "Tischplatte",
+            "Würfels",
+            "Vorteil",
+            "Rollbewegung"
+          ]
+        },
+        {
+          "wordIndex": 83,
+          "original": "Bedarf",
+          "alternativeSuggestions": [
+            "Wahrscheinlichkeitsverteilung",
+            "Rollbewegung",
+            "Zinken",
+            "Würfelwurf"
+          ]
+        },
+        {
+          "wordIndex": 38,
+          "original": "Gewichtsverteilung",
+          "alternativeSuggestions": [
+            "Würfelwurf",
+            "Ergebnisse",
+            "Wahrscheinlichkeitsverteilung",
+            "Bedarf"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "276",
+      "type": "paragraph",
+      "text": "Ein Rasiermesser ist ein sehr scharfes Messer für die Nass-, seltener auch für die Trockenrasur, bestehend aus einer länglichen Stahlklinge und einem Griff. Die Klinge ist zumeist aus nicht rostfreiem Kohlenstoffstahl gefertigt und hohl geschliffen. Für den Griff werden Materialien wie Holz, Perlmutt, Horn oder auch Kunststoff verwendet. Für die Lagerung und den Transport kann die scharfe Klinge in den Griff eingeklappt werden. Rasiermesser dieser Bauart dominierten im 19. Jahrhundert, der „Goldenen Ära“ des Rasiermessers und wurden lange Zeit nur noch von professionellen Barbieren verwendet. Seit einigen Jahren finden Rasiermesser jedoch auch zunehmend im Privatbereich wieder eine wachsende Verwendung.",
+      "sentences": [
+        "Ein Rasiermesser ist ein sehr scharfes Messer für die Nass-, seltener auch für die Trockenrasur, bestehend aus einer länglichen Stahlklinge und einem Griff.",
+        "Die Klinge ist zumeist aus nicht rostfreiem Kohlenstoffstahl gefertigt und hohl geschliffen.",
+        "Für den Griff werden Materialien wie Holz, Perlmutt, Horn oder auch Kunststoff verwendet.",
+        "Für die Lagerung und den Transport kann die scharfe Klinge in den Griff eingeklappt werden.",
+        "Rasiermesser dieser Bauart dominierten im 19. Jahrhundert, der „Goldenen Ära“ des Rasiermessers und wurden lange Zeit nur noch von professionellen Barbieren verwendet.",
+        "Seit einigen Jahren finden Rasiermesser jedoch auch zunehmend im Privatbereich wieder eine wachsende Verwendung."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 42,
+          "original": "Perlmutt",
+          "alternativeSuggestions": [
+            "Klinge",
+            "Griff",
+            "Verwendung",
+            "Bauart"
+          ]
+        },
+        {
+          "wordIndex": 37,
+          "original": "Griff",
+          "alternativeSuggestions": [
+            "Barbieren",
+            "Transport",
+            "Kohlenstoffstahl",
+            "Lagerung"
+          ]
+        },
+        {
+          "wordIndex": 46,
+          "original": "Kunststoff",
+          "alternativeSuggestions": [
+            "Verwendung",
+            "Klinge",
+            "Barbieren",
+            "Griff"
+          ]
+        },
+        {
+          "wordIndex": 22,
+          "original": "Griff",
+          "alternativeSuggestions": [
+            "Jahrhundert",
+            "Bauart",
+            "Stahlklinge",
+            "Perlmutt"
+          ]
+        },
+        {
+          "wordIndex": 1,
+          "original": "Rasiermesser",
+          "alternativeSuggestions": [
+            "Jahren",
+            "Lagerung",
+            "Kunststoff",
+            "Privatbereich"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "320",
+      "type": "paragraph",
+      "text": "Die Arbeitsteilung in der Partnerschaft ist Gegenstand zahlreicher Untersuchungen. Deutschen Studien zufolge wenden Frauen insgesamt wesentlich mehr Zeit für Haus- und Familienarbeit auf als Männer. Dabei sei eine deutliche geschlechtsspezifische Teilung nach Art der Arbeit zu beobachten. Auch wenn einzelne Aufgaben an andere Personen oder Institutionen delegiert werden, liege die Aufgabe der Organisation der Haus- und Familienarbeit meist bei der Frau.",
+      "sentences": [
+        "Die Arbeitsteilung in der Partnerschaft ist Gegenstand zahlreicher Untersuchungen.",
+        "Deutschen Studien zufolge wenden Frauen insgesamt wesentlich mehr Zeit für Haus- und Familienarbeit auf als Männer.",
+        "Dabei sei eine deutliche geschlechtsspezifische Teilung nach Art der Arbeit zu beobachten.",
+        "Auch wenn einzelne Aufgaben an andere Personen oder Institutionen delegiert werden, liege die Aufgabe der Organisation der Haus- und Familienarbeit meist bei der Frau."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 56,
+          "original": "Familienarbeit",
+          "alternativeSuggestions": [
+            "Studien",
+            "Institutionen",
+            "Aufgaben",
+            "Arbeit"
+          ]
+        },
+        {
+          "wordIndex": 52,
+          "original": "Organisation",
+          "alternativeSuggestions": [
+            "Aufgabe",
+            "Frauen",
+            "Frau",
+            "Art"
+          ]
+        },
+        {
+          "wordIndex": 1,
+          "original": "Arbeitsteilung",
+          "alternativeSuggestions": [
+            "Zeit",
+            "Teilung",
+            "Frau",
+            "Institutionen"
+          ]
+        },
+        {
+          "wordIndex": 6,
+          "original": "Gegenstand",
+          "alternativeSuggestions": [
+            "Frauen",
+            "Untersuchungen",
+            "Personen",
+            "Arbeitsteilung"
+          ]
+        },
+        {
+          "wordIndex": 10,
+          "original": "Studien",
+          "alternativeSuggestions": [
+            "Aufgabe",
+            "Frau",
+            "Frauen",
+            "Familienarbeit"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "557",
+      "type": "paragraph",
+      "text": "Zur Rekonstruktion vergangener Klimazustände gibt es eine Reihe verschiedener Untersuchungsmethoden. Bereits im 19. Jahrhundert wurde anhand von geologischen Klimazeugen wie Trogtälern, Grundmoränen oder Gletscherschliffen eine lange währende Eiszeit mit großräumigen Vergletscherungen (damals oft „Weltwinter“ genannt) sowohl in Europa als auch auf anderen Kontinenten direkt nachgewiesen. Weitere Klimaarchive, mit denen frühere Warmzeiten belegt werden können, sind zum Beispiel Lage und Ausdehnung urzeitlicher Korallenriffe oder die Analyse bestimmter Sedimente und Sedimentgesteine, die unter tropischen Bedingungen entstanden sind.",
+      "sentences": [
+        "Zur Rekonstruktion vergangener Klimazustände gibt es eine Reihe verschiedener Untersuchungsmethoden.",
+        "Bereits im 19. Jahrhundert wurde anhand von geologischen Klimazeugen wie Trogtälern, Grundmoränen oder Gletscherschliffen eine lange währende Eiszeit mit großräumigen Vergletscherungen (damals oft „Weltwinter“ genannt) sowohl in Europa als auch auf anderen Kontinenten direkt nachgewiesen.",
+        "Weitere Klimaarchive, mit denen frühere Warmzeiten belegt werden können, sind zum Beispiel Lage und Ausdehnung urzeitlicher Korallenriffe oder die Analyse bestimmter Sedimente und Sedimentgesteine, die unter tropischen Bedingungen entstanden sind."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 72,
+          "original": "Bedingungen",
+          "alternativeSuggestions": [
+            "Klimazeugen",
+            "Reihe",
+            "Grundmoränen",
+            "Kontinenten"
+          ]
+        },
+        {
+          "wordIndex": 7,
+          "original": "Reihe",
+          "alternativeSuggestions": [
+            "Jahrhundert",
+            "Analyse",
+            "Klimaarchive",
+            "Warmzeiten"
+          ]
+        },
+        {
+          "wordIndex": 30,
+          "original": "Vergletscherungen",
+          "alternativeSuggestions": [
+            "Untersuchungsmethoden",
+            "Klimazeugen",
+            "Sedimentgesteine",
+            "Trogtälern"
+          ]
+        },
+        {
+          "wordIndex": 42,
+          "original": "Kontinenten",
+          "alternativeSuggestions": [
+            "Beispiel",
+            "Sedimente",
+            "Bedingungen",
+            "Klimaarchive"
+          ]
+        },
+        {
+          "wordIndex": 66,
+          "original": "Sedimente",
+          "alternativeSuggestions": [
+            "Sedimentgesteine",
+            "Klimazustände",
+            "Ausdehnung",
+            "Untersuchungsmethoden"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "561",
+      "type": "paragraph",
+      "text": "Vor 2,6 Milliarden Jahren bildete sich im Laufe der Entwicklung der Erdatmosphäre durch die Aktivität von Cyanobakterien der erste Sauerstoff in der Uratmosphäre und erreichte vor circa 2,2 Milliarden Jahren signifikante Konzentrationen. Der Wasserdampf kondensierte größtenteils und wurde als Wasser in Meeren und Seen gebunden. Mit dem Wasserdampf verschwand auch ein großer Teil des Kohlendioxids aus der Atmosphäre. Das Kohlendioxid wurde durch die Cyanobakterien verbraucht, die es im Zuge der Photosynthese als Kohlenstoffquelle nutzten. Der Kohlenstoff wurde dem normalen Kreislauf entzogen, weil die Cyanobakterien nicht von anderen Organismen verstoffwechselt wurden, sondern sich am Meeresboden absetzten, wo sie fein verteilt in den Sedimenten ablagerten oder im küstennahen, lichtdurchfluteten Flachwasserbereich als Stromatolithe fossilisierten. Erst dadurch war der Aufbau einer oxidierenden Sauerstoffatmosphäre möglich, wobei über einen langen Zeitraum keine wesentlichen Konzentrationssteigerungen auftraten, da der freigesetzte Sauerstoff zunächst nur Eisenverbindungen oxidierte. Dieses Eisenoxid resultierte in großen Ablagerungen so genannter Bändererze, die als ergiebige Lagerstätten erhalten blieben und intensiv abgebaut werden. Die Sauerstoffkonzentration in der Atmosphäre stieg weiter an, so dass damit aerobes Leben auf der Erde möglich wurde. Die Veränderung der Konzentration der Klimagase und ihrer Zusammensetzung veränderte zudem den Strahlungshaushalt der Erde und brachte den Treibhauseffekt in Gang, der die Erde seitdem erwärmt.",
+      "sentences": [
+        "Vor 2,6 Milliarden Jahren bildete sich im Laufe der Entwicklung der Erdatmosphäre durch die Aktivität von Cyanobakterien der erste Sauerstoff in der Uratmosphäre und erreichte vor circa 2,2 Milliarden Jahren signifikante Konzentrationen.",
+        "Der Wasserdampf kondensierte größtenteils und wurde als Wasser in Meeren und Seen gebunden.",
+        "Mit dem Wasserdampf verschwand auch ein großer Teil des Kohlendioxids aus der Atmosphäre.",
+        "Das Kohlendioxid wurde durch die Cyanobakterien verbraucht, die es im Zuge der Photosynthese als Kohlenstoffquelle nutzten.",
+        "Der Kohlenstoff wurde dem normalen Kreislauf entzogen, weil die Cyanobakterien nicht von anderen Organismen verstoffwechselt wurden, sondern sich am Meeresboden absetzten, wo sie fein verteilt in den Sedimenten ablagerten oder im küstennahen, lichtdurchfluteten Flachwasserbereich als Stromatolithe fossilisierten.",
+        "Erst dadurch war der Aufbau einer oxidierenden Sauerstoffatmosphäre möglich, wobei über einen langen Zeitraum keine wesentlichen Konzentrationssteigerungen auftraten, da der freigesetzte Sauerstoff zunächst nur Eisenverbindungen oxidierte.",
+        "Dieses Eisenoxid resultierte in großen Ablagerungen so genannter Bändererze, die als ergiebige Lagerstätten erhalten blieben und intensiv abgebaut werden.",
+        "Die Sauerstoffkonzentration in der Atmosphäre stieg weiter an, so dass damit aerobes Leben auf der Erde möglich wurde.",
+        "Die Veränderung der Konzentration der Klimagase und ihrer Zusammensetzung veränderte zudem den Strahlungshaushalt der Erde und brachte den Treibhauseffekt in Gang, der die Erde seitdem erwärmt."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 177,
+          "original": "Konzentration",
+          "alternativeSuggestions": [
+            "Zuge",
+            "Laufe",
+            "Jahren",
+            "Zusammensetzung"
+          ]
+        },
+        {
+          "wordIndex": 101,
+          "original": "Sedimenten",
+          "alternativeSuggestions": [
+            "Lagerstätten",
+            "Kohlenstoff",
+            "Organismen",
+            "Sauerstoffatmosphäre"
+          ]
+        },
+        {
+          "wordIndex": 160,
+          "original": "Atmosphäre",
+          "alternativeSuggestions": [
+            "Meeresboden",
+            "Photosynthese",
+            "Aktivität",
+            "Erde"
+          ]
+        },
+        {
+          "wordIndex": 179,
+          "original": "Klimagase",
+          "alternativeSuggestions": [
+            "Bändererze",
+            "Entwicklung",
+            "Aufbau",
+            "Cyanobakterien"
+          ]
+        },
+        {
+          "wordIndex": 79,
+          "original": "Kreislauf",
+          "alternativeSuggestions": [
+            "Strahlungshaushalt",
+            "Wasser",
+            "Gang",
+            "Uratmosphäre"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "594",
+      "type": "paragraph",
+      "text": "Heute stammt immer noch der größere Teil der Wärmeleistung aus dem radioaktiven Zerfall der langlebigeren Nuklide im Mantel, 235U und 238U, 232Th und 40K. Der Beitrag jedes Nuklids wird berechnet aus der Zerfallsenergie und der Zerfallsrate; diese wiederum aus der Halbwertszeit und der Konzentration. Konzentrationen im Mantel sind der Messung nicht zugänglich, sondern werden aus Modellen der Gesteinsbildung geschätzt. Es ergibt sich eine Leistung aus radioaktivem Zerfall von etwa 20 bis 30 Terawatt oder 40 bis 50 kW/km². Der gesamte Erdwärmestrom aus radioaktiven Zerfallsprozessen beträgt etwa 900 EJ pro Jahr. Dies entspricht wiederum einer Leistung von etwa 27,5 Terawatt für die gesamte Erde. Seit kurzem werden Zerfallsraten mittels Neutrinodetektoren auch direkt gemessen, in Übereinstimmung mit dem bekannten Ergebnis, allerdings noch sehr ungenau, ±40 %.",
+      "sentences": [
+        "Heute stammt immer noch der größere Teil der Wärmeleistung aus dem radioaktiven Zerfall der langlebigeren Nuklide im Mantel, 235U und 238U, 232Th und 40K.",
+        "Der Beitrag jedes Nuklids wird berechnet aus der Zerfallsenergie und der Zerfallsrate; diese wiederum aus der Halbwertszeit und der Konzentration.",
+        "Konzentrationen im Mantel sind der Messung nicht zugänglich, sondern werden aus Modellen der Gesteinsbildung geschätzt.",
+        "Es ergibt sich eine Leistung aus radioaktivem Zerfall von etwa 20 bis 30 Terawatt oder 40 bis 50 kW/km².",
+        "Der gesamte Erdwärmestrom aus radioaktiven Zerfallsprozessen beträgt etwa 900 EJ pro Jahr.",
+        "Dies entspricht wiederum einer Leistung von etwa 27,5 Terawatt für die gesamte Erde.",
+        "Seit kurzem werden Zerfallsraten mittels Neutrinodetektoren auch direkt gemessen, in Übereinstimmung mit dem bekannten Ergebnis, allerdings noch sehr ungenau, ±40 %."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 72,
+          "original": "Terawatt",
+          "alternativeSuggestions": [
+            "Zerfallsenergie",
+            "Konzentration",
+            "Konzentrationen",
+            "232Th"
+          ]
+        },
+        {
+          "wordIndex": 27,
+          "original": "Nuklids",
+          "alternativeSuggestions": [
+            "Teil",
+            "Messung",
+            "Ergebnis",
+            "Zerfallsrate"
+          ]
+        },
+        {
+          "wordIndex": 103,
+          "original": "Erde",
+          "alternativeSuggestions": [
+            "232Th",
+            "Gesteinsbildung",
+            "Mantel",
+            "Konzentrationen"
+          ]
+        },
+        {
+          "wordIndex": 95,
+          "original": "Leistung",
+          "alternativeSuggestions": [
+            "Teil",
+            "Modellen",
+            "Wärmeleistung",
+            "Zerfall"
+          ]
+        },
+        {
+          "wordIndex": 35,
+          "original": "Zerfallsrate",
+          "alternativeSuggestions": [
+            "Leistung",
+            "232Th",
+            "Nuklids",
+            "Jahr"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "601",
+      "type": "paragraph",
+      "text": "Generell werden im Bereich der tiefen Geothermie drei Arten der Wärmeentnahme aus dem Untergrund unterschieden; welches der in Frage kommenden Verfahren zum Einsatz kommt, ist von den jeweiligen geologischen Voraussetzungen, von der benötigten Energiemenge sowie dem geforderten Temperaturniveau der Wärmenutzung abhängig. Es wird öfter zur Wärmegewinnung genutzt, denn da kann bereits bei geringeren Vorlauftemperaturen die Wirtschaftlichkeit erreicht werden. Derzeit (2010) werden in Deutschland fast ausschließlich hydrothermale Systeme geplant. HDR-Verfahren befinden sich in den Pilotprojekten in Bad Urach (D), in Soultz-sous-Forêts im Elsass (F) und in Basel (CH) in der Erprobung. In Südost-Australien Cooperbecken ist seit 2001 ein kommerzielles Projekt im Gange (Firma Geodynamics Limited).",
+      "sentences": [
+        "Generell werden im Bereich der tiefen Geothermie drei Arten der Wärmeentnahme aus dem Untergrund unterschieden; welches der in Frage kommenden Verfahren zum Einsatz kommt, ist von den jeweiligen geologischen Voraussetzungen, von der benötigten Energiemenge sowie dem geforderten Temperaturniveau der Wärmenutzung abhängig.",
+        "Es wird öfter zur Wärmegewinnung genutzt, denn da kann bereits bei geringeren Vorlauftemperaturen die Wirtschaftlichkeit erreicht werden.",
+        "Derzeit (2010) werden in Deutschland fast ausschließlich hydrothermale Systeme geplant.",
+        "HDR-Verfahren befinden sich in den Pilotprojekten in Bad Urach (D), in Soultz-sous-Forêts im Elsass (F) und in Basel (CH) in der Erprobung.",
+        "In Südost-Australien Cooperbecken ist seit 2001 ein kommerzielles Projekt im Gange (Firma Geodynamics Limited)."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 73,
+          "original": "Pilotprojekten",
+          "alternativeSuggestions": [
+            "Wärmenutzung",
+            "Geothermie",
+            "Temperaturniveau",
+            "Wärmegewinnung"
+          ]
+        },
+        {
+          "wordIndex": 66,
+          "original": "Systeme",
+          "alternativeSuggestions": [
+            "Erprobung",
+            "Firma",
+            "Wärmeentnahme",
+            "Cooperbecken"
+          ]
+        },
+        {
+          "wordIndex": 101,
+          "original": "Firma",
+          "alternativeSuggestions": [
+            "Wirtschaftlichkeit",
+            "Erprobung",
+            "Elsass",
+            "Wärmeentnahme"
+          ]
+        },
+        {
+          "wordIndex": 81,
+          "original": "Elsass",
+          "alternativeSuggestions": [
+            "Wärmeentnahme",
+            "Temperaturniveau",
+            "Verfahren",
+            "Bereich"
+          ]
+        },
+        {
+          "wordIndex": 55,
+          "original": "Wirtschaftlichkeit",
+          "alternativeSuggestions": [
+            "Wärmeentnahme",
+            "Wärmegewinnung",
+            "Systeme",
+            "Firma"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "651",
+      "type": "paragraph",
+      "text": "Der Glacier-Nationalpark ist ein Nationalpark der Vereinigten Staaten im Hochgebirge der Rocky Mountains. Er liegt im Norden des US-Bundesstaats Montana an der Grenze zu Kanada und weist geologische, geographische und klimatische Besonderheiten auf. Seine verschiedenen Ökosysteme sind nahezu ungestört. Er wurde am 11. Mai 1910 unter Schutz gestellt, wird vom National Park Service verwaltet und dient wegen seiner langen Forschungsgeschichte als Referenzgebiet für die Erforschung der Klimageschichte und der globalen Erwärmung.",
+      "sentences": [
+        "Der Glacier-Nationalpark ist ein Nationalpark der Vereinigten Staaten im Hochgebirge der Rocky Mountains.",
+        "Er liegt im Norden des US-Bundesstaats Montana an der Grenze zu Kanada und weist geologische, geographische und klimatische Besonderheiten auf.",
+        "Seine verschiedenen Ökosysteme sind nahezu ungestört.",
+        "Er wurde am 11. Mai 1910 unter Schutz gestellt, wird vom National Park Service verwaltet und dient wegen seiner langen Forschungsgeschichte als Referenzgebiet für die Erforschung der Klimageschichte und der globalen Erwärmung."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 16,
+          "original": "Norden",
+          "alternativeSuggestions": [
+            "Referenzgebiet",
+            "Besonderheiten",
+            "Ökosysteme",
+            "Klimageschichte"
+          ]
+        },
+        {
+          "wordIndex": 9,
+          "original": "Hochgebirge",
+          "alternativeSuggestions": [
+            "Forschungsgeschichte",
+            "Erforschung",
+            "Norden",
+            "Referenzgebiet"
+          ]
+        },
+        {
+          "wordIndex": 70,
+          "original": "Erwärmung",
+          "alternativeSuggestions": [
+            "Grenze",
+            "Klimageschichte",
+            "Hochgebirge",
+            "Forschungsgeschichte"
+          ]
+        },
+        {
+          "wordIndex": 61,
+          "original": "Referenzgebiet",
+          "alternativeSuggestions": [
+            "Klimageschichte",
+            "Besonderheiten",
+            "Schutz",
+            "Erwärmung"
+          ]
+        },
+        {
+          "wordIndex": 11,
+          "original": "Rocky",
+          "alternativeSuggestions": [
+            "Erwärmung",
+            "Forschungsgeschichte",
+            "Klimageschichte",
+            "Referenzgebiet"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "656",
+      "type": "paragraph",
+      "text": "Das Erscheinungsbild des Nationalparks prägen die quer zum Hauptkamm verlaufenden von eiszeitlichen Gletschern ausgeschliffenen Trogtäler mit über 750 Seen, von denen nur 131 einen offiziellen Namen tragen. In den Tieflagen liegen Zungenbeckenseen, im höheren Gelände handelt es sich um Karseen. Die größeren Seen des Parks sind der Lake McDonald, der Two Medicine Lake, St. Mary Lake, der Lake Sherburne und der Südteil des grenzüberschreitenden Upper Waterton Lake.",
+      "sentences": [
+        "Das Erscheinungsbild des Nationalparks prägen die quer zum Hauptkamm verlaufenden von eiszeitlichen Gletschern ausgeschliffenen Trogtäler mit über 750 Seen, von denen nur 131 einen offiziellen Namen tragen.",
+        "In den Tieflagen liegen Zungenbeckenseen, im höheren Gelände handelt es sich um Karseen.",
+        "Die größeren Seen des Parks sind der Lake McDonald, der Two Medicine Lake, St. Mary Lake, der Lake Sherburne und der Südteil des grenzüberschreitenden Upper Waterton Lake."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 44,
+          "original": "Parks",
+          "alternativeSuggestions": [
+            "Gletschern",
+            "Upper",
+            "Two",
+            "Namen"
+          ]
+        },
+        {
+          "wordIndex": 12,
+          "original": "Gletschern",
+          "alternativeSuggestions": [
+            "Zungenbeckenseen",
+            "Seen",
+            "Two",
+            "Erscheinungsbild"
+          ]
+        },
+        {
+          "wordIndex": 25,
+          "original": "Namen",
+          "alternativeSuggestions": [
+            "Hauptkamm",
+            "Südteil",
+            "Parks",
+            "Gletschern"
+          ]
+        },
+        {
+          "wordIndex": 8,
+          "original": "Hauptkamm",
+          "alternativeSuggestions": [
+            "Seen",
+            "Two",
+            "Südteil",
+            "Tieflagen"
+          ]
+        },
+        {
+          "wordIndex": 42,
+          "original": "Seen",
+          "alternativeSuggestions": [
+            "Tieflagen",
+            "Trogtäler",
+            "Südteil",
+            "Parks"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "707",
+      "type": "paragraph",
+      "text": "Die Neigung eines Polymers, bei der Wiederverarbeitung zu degradieren, hängt vom gewählten Aufbereitungsverfahren ab und vom jeweiligen Grundpolymertyp sowie dem Gehalt an Additiven, die den thermisch-oxidativen Abbau der Molekülketten bei der Verarbeitung stark herabsetzen können. In einigen Fällen erreicht der verwertete Kunststoff durchaus das Eigenschaftsniveau der Originalware. Es kommt hierbei auf die Qualität und Sortenreinheit der gesammelten Altteile und den Aufbereitungsprozess und die Nachadditivierung an. Auch der Gesamtenergieverbrauch bei der Wiederaufbereitung wird vielfach überschätzt. Mit nicht mehr als rund 10 bis 15 MJ/kg Polymer (Thermoplast) ist bei Teilen, die eine Einzelmasse von mehr als 100 g besitzen, die komplette Aufbereitung durchführbar (in diesem Zusammenhang wird auf Originalliteratur aus den Jahren 1990 bis 1997 sowie auf die Quellen verwiesen).",
+      "sentences": [
+        "Die Neigung eines Polymers, bei der Wiederverarbeitung zu degradieren, hängt vom gewählten Aufbereitungsverfahren ab und vom jeweiligen Grundpolymertyp sowie dem Gehalt an Additiven, die den thermisch-oxidativen Abbau der Molekülketten bei der Verarbeitung stark herabsetzen können.",
+        "In einigen Fällen erreicht der verwertete Kunststoff durchaus das Eigenschaftsniveau der Originalware.",
+        "Es kommt hierbei auf die Qualität und Sortenreinheit der gesammelten Altteile und den Aufbereitungsprozess und die Nachadditivierung an.",
+        "Auch der Gesamtenergieverbrauch bei der Wiederaufbereitung wird vielfach überschätzt.",
+        "Mit nicht mehr als rund 10 bis 15 MJ/kg Polymer (Thermoplast) ist bei Teilen, die eine Einzelmasse von mehr als 100 g besitzen, die komplette Aufbereitung durchführbar (in diesem Zusammenhang wird auf Originalliteratur aus den Jahren 1990 bis 1997 sowie auf die Quellen verwiesen)."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 110,
+          "original": "Jahren",
+          "alternativeSuggestions": [
+            "Fällen",
+            "Verarbeitung",
+            "Wiederverarbeitung",
+            "Aufbereitungsverfahren"
+          ]
+        },
+        {
+          "wordIndex": 3,
+          "original": "Polymers",
+          "alternativeSuggestions": [
+            "Kunststoff",
+            "Teilen",
+            "Molekülketten",
+            "Thermoplast"
+          ]
+        },
+        {
+          "wordIndex": 37,
+          "original": "Fällen",
+          "alternativeSuggestions": [
+            "Thermoplast",
+            "Quellen",
+            "Neigung",
+            "Sortenreinheit"
+          ]
+        },
+        {
+          "wordIndex": 91,
+          "original": "Einzelmasse",
+          "alternativeSuggestions": [
+            "Fällen",
+            "Altteile",
+            "Polymers",
+            "Sortenreinheit"
+          ]
+        },
+        {
+          "wordIndex": 57,
+          "original": "Altteile",
+          "alternativeSuggestions": [
+            "Qualität",
+            "Eigenschaftsniveau",
+            "Abbau",
+            "Aufbereitung"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "803",
+      "type": "paragraph",
+      "text": "Anders als bei allen anderen Nobelpreisen, die in Stockholm vergeben werden, erfolgt die Verleihung im Rathaus von Oslo, der norwegischen Hauptstadt. Der Preisträger des Friedensnobelpreises wird von einem fünfköpfigen Komitee, dem Norwegischen Nobelkomitee, ausgewählt. Die Mitglieder des Komitees werden vom norwegischen Parlament, dem Storting, ernannt.",
+      "sentences": [
+        "Anders als bei allen anderen Nobelpreisen, die in Stockholm vergeben werden, erfolgt die Verleihung im Rathaus von Oslo, der norwegischen Hauptstadt.",
+        "Der Preisträger des Friedensnobelpreises wird von einem fünfköpfigen Komitee, dem Norwegischen Nobelkomitee, ausgewählt.",
+        "Die Mitglieder des Komitees werden vom norwegischen Parlament, dem Storting, ernannt."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 43,
+          "original": "Storting",
+          "alternativeSuggestions": [
+            "Hauptstadt",
+            "Parlament",
+            "Preisträger",
+            "Norwegischen"
+          ]
+        },
+        {
+          "wordIndex": 22,
+          "original": "Preisträger",
+          "alternativeSuggestions": [
+            "Storting",
+            "Komitees",
+            "Verleihung",
+            "Komitee"
+          ]
+        },
+        {
+          "wordIndex": 5,
+          "original": "Nobelpreisen",
+          "alternativeSuggestions": [
+            "Norwegischen",
+            "Parlament",
+            "Komitees",
+            "Verleihung"
+          ]
+        },
+        {
+          "wordIndex": 31,
+          "original": "Norwegischen",
+          "alternativeSuggestions": [
+            "Komitees",
+            "Hauptstadt",
+            "Verleihung",
+            "Storting"
+          ]
+        },
+        {
+          "wordIndex": 29,
+          "original": "Komitee",
+          "alternativeSuggestions": [
+            "Preisträger",
+            "Storting",
+            "Verleihung",
+            "Friedensnobelpreises"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "804",
+      "type": "paragraph",
+      "text": "Die Ursache für die Vergabe durch ein norwegisches Gremium liegt vermutlich darin, dass zu Nobels Lebzeiten Schweden und Norwegen vereinigt waren und außenpolitische Fragen nur durch das schwedische Parlament entschieden wurden. Nobel selbst hat nie erklärt, warum er den Preis nicht wie alle anderen in Schweden vergeben lassen wollte. Man geht allerdings davon aus, dass er der Meinung war, das norwegische Parlament, das nur für die Innenpolitik verantwortlich war, wäre Manipulationen durch die Regierung weniger stark ausgesetzt. Alfred Nobel schätzte zudem den norwegischen Autor Bjørnstjerne Bjørnson sehr, was seine Entscheidung beeinflusst haben könnte.",
+      "sentences": [
+        "Die Ursache für die Vergabe durch ein norwegisches Gremium liegt vermutlich darin, dass zu Nobels Lebzeiten Schweden und Norwegen vereinigt waren und außenpolitische Fragen nur durch das schwedische Parlament entschieden wurden.",
+        "Nobel selbst hat nie erklärt, warum er den Preis nicht wie alle anderen in Schweden vergeben lassen wollte.",
+        "Man geht allerdings davon aus, dass er der Meinung war, das norwegische Parlament, das nur für die Innenpolitik verantwortlich war, wäre Manipulationen durch die Regierung weniger stark ausgesetzt.",
+        "Alfred Nobel schätzte zudem den norwegischen Autor Bjørnstjerne Bjørnson sehr, was seine Entscheidung beeinflusst haben könnte."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 15,
+          "original": "Lebzeiten",
+          "alternativeSuggestions": [
+            "Entscheidung",
+            "Ursache",
+            "Preis",
+            "Vergabe"
+          ]
+        },
+        {
+          "wordIndex": 23,
+          "original": "Fragen",
+          "alternativeSuggestions": [
+            "Gremium",
+            "Preis",
+            "Entscheidung",
+            "Regierung"
+          ]
+        },
+        {
+          "wordIndex": 8,
+          "original": "Gremium",
+          "alternativeSuggestions": [
+            "Parlament",
+            "Ursache",
+            "Lebzeiten",
+            "Manipulationen"
+          ]
+        },
+        {
+          "wordIndex": 61,
+          "original": "Parlament",
+          "alternativeSuggestions": [
+            "Preis",
+            "Meinung",
+            "Entscheidung",
+            "Autor"
+          ]
+        },
+        {
+          "wordIndex": 57,
+          "original": "Meinung",
+          "alternativeSuggestions": [
+            "Autor",
+            "Vergabe",
+            "Innenpolitik",
+            "Ursache"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "806",
+      "type": "paragraph",
+      "text": "Das Komitee ist in seiner Entscheidung vollkommen unabhängig von äußeren Einflüssen. Die Sitzungen müssen nicht protokolliert und Entscheidungen nicht gerechtfertigt werden, auch dann nicht, wenn es zu gegensätzlichen Meinungen kommt. Entsprechend nimmt das Komitee auch in den nach der Vergabe folgenden Diskussionen nie Stellung zur Entscheidung.",
+      "sentences": [
+        "Das Komitee ist in seiner Entscheidung vollkommen unabhängig von äußeren Einflüssen.",
+        "Die Sitzungen müssen nicht protokolliert und Entscheidungen nicht gerechtfertigt werden, auch dann nicht, wenn es zu gegensätzlichen Meinungen kommt.",
+        "Entsprechend nimmt das Komitee auch in den nach der Vergabe folgenden Diskussionen nie Stellung zur Entscheidung."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 41,
+          "original": "Diskussionen",
+          "alternativeSuggestions": [
+            "Einflüssen",
+            "Entscheidung",
+            "Entscheidungen",
+            "Komitee"
+          ]
+        },
+        {
+          "wordIndex": 33,
+          "original": "Komitee",
+          "alternativeSuggestions": [
+            "Entscheidungen",
+            "Stellung",
+            "Sitzungen",
+            "Diskussionen"
+          ]
+        },
+        {
+          "wordIndex": 10,
+          "original": "Einflüssen",
+          "alternativeSuggestions": [
+            "Entscheidung",
+            "Sitzungen",
+            "Vergabe",
+            "Komitee"
+          ]
+        },
+        {
+          "wordIndex": 12,
+          "original": "Sitzungen",
+          "alternativeSuggestions": [
+            "Entscheidung",
+            "Vergabe",
+            "Einflüssen",
+            "Meinungen"
+          ]
+        },
+        {
+          "wordIndex": 39,
+          "original": "Vergabe",
+          "alternativeSuggestions": [
+            "Meinungen",
+            "Einflüssen",
+            "Stellung",
+            "Komitee"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "901",
+      "type": "paragraph",
+      "text": "Die Familie zog kurz nach der Geburt Alberts 1880 nach München, wo sein Vater und sein Onkel im Oktober 1880 einen kleinen Betrieb zur Gas- und Wasserinstallation gründeten. Da dieser wirtschaftlich zufriedenstellend lief, beschlossen sie 1885 und mit Unterstützung der gesamten Familie, eine eigene Fabrik für elektrische Geräte (Elektrotechnische Fabrik J. Einstein & Cie) ins Leben zu rufen. Die Firma seines Vaters war erfolgreich und belieferte Kraftwerke in München-Schwabing, Varese und Susa (Italien). Zweieinhalb Jahre nach Albert wurde seine Schwester Maja (* 18. November 1881 in München; † 25. Juni 1951 in Princeton, New Jersey, USA) geboren. Ob Albert schon zu jener Zeit an die Isar kam oder erst 1885 als Sechsjähriger, ist unter Historikern umstritten. Gesichert ist dagegen, dass die Familie ein Gebäude im Hinterhof der Adlzreiterstraße 12 bewohnte, die heute zum Anwesen Lindwurmstraße 127 im Münchener Stadtteil Isarvorstadt gehört.",
+      "sentences": [
+        "Die Familie zog kurz nach der Geburt Alberts 1880 nach München, wo sein Vater und sein Onkel im Oktober 1880 einen kleinen Betrieb zur Gas- und Wasserinstallation gründeten.",
+        "Da dieser wirtschaftlich zufriedenstellend lief, beschlossen sie 1885 und mit Unterstützung der gesamten Familie, eine eigene Fabrik für elektrische Geräte (Elektrotechnische Fabrik J. Einstein & Cie) ins Leben zu rufen.",
+        "Die Firma seines Vaters war erfolgreich und belieferte Kraftwerke in München-Schwabing, Varese und Susa (Italien).",
+        "Zweieinhalb Jahre nach Albert wurde seine Schwester Maja (* 18. November 1881 in München; † 25. Juni 1951 in Princeton, New Jersey, USA) geboren.",
+        "Ob Albert schon zu jener Zeit an die Isar kam oder erst 1885 als Sechsjähriger, ist unter Historikern umstritten.",
+        "Gesichert ist dagegen, dass die Familie ein Gebäude im Hinterhof der Adlzreiterstraße 12 bewohnte, die heute zum Anwesen Lindwurmstraße 127 im Münchener Stadtteil Isarvorstadt gehört."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 41,
+          "original": "Familie",
+          "alternativeSuggestions": [
+            "Adlzreiterstraße",
+            "Firma",
+            "Historikern",
+            "Sechsjähriger"
+          ]
+        },
+        {
+          "wordIndex": 16,
+          "original": "Onkel",
+          "alternativeSuggestions": [
+            "Zeit",
+            "Leben",
+            "Historikern",
+            "Anwesen"
+          ]
+        },
+        {
+          "wordIndex": 114,
+          "original": "Historikern",
+          "alternativeSuggestions": [
+            "Geburt",
+            "Anwesen",
+            "Kraftwerke",
+            "Wasserinstallation"
+          ]
+        },
+        {
+          "wordIndex": 26,
+          "original": "Wasserinstallation",
+          "alternativeSuggestions": [
+            "November",
+            "Vaters",
+            "Schwester",
+            "Firma"
+          ]
+        },
+        {
+          "wordIndex": 13,
+          "original": "Vater",
+          "alternativeSuggestions": [
+            "Schwester",
+            "Adlzreiterstraße",
+            "Oktober",
+            "Sechsjähriger"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "1057",
+      "type": "paragraph",
+      "text": "Seit der Gründung des Parlaments 1952 wurden seine Kompetenzen bei der EU-Rechtsetzung mehrmals deutlich erweitert, vor allem durch den Vertrag von Maastricht 1992 und zuletzt durch den Vertrag von Lissabon 2007, der am 1. Dezember 2009 in Kraft trat. Auch in Bezug auf die Bildung der Exekutive, also die Wahl der Europäischen Kommission, wurden die Rechte des Parlaments schrittweise ausgebaut. So müssen sich die Kandidaten für die EU-Kommission zunächst einer Anhörung im Europäischen Parlament stellen und ihre Eignung und Befähigung für das vorgeschlagene Amt unter Beweis stellen. Diese Anhörung führt in der Regel der entsprechende Ausschuss des Europäischen Parlaments durch und alle Anhörungen werden per Web-Stream über die Website des Europäischen Parlaments auch öffentlich gemacht. Erst nach der erfolgreich bestandenen Anhörung kann der Kandidat zum Mitglied der EU-Kommission gewählt werden, auch dies geschieht durch das Europäische Parlament (Plenum).",
+      "sentences": [
+        "Seit der Gründung des Parlaments 1952 wurden seine Kompetenzen bei der EU-Rechtsetzung mehrmals deutlich erweitert, vor allem durch den Vertrag von Maastricht 1992 und zuletzt durch den Vertrag von Lissabon 2007, der am 1. Dezember 2009 in Kraft trat.",
+        "Auch in Bezug auf die Bildung der Exekutive, also die Wahl der Europäischen Kommission, wurden die Rechte des Parlaments schrittweise ausgebaut.",
+        "So müssen sich die Kandidaten für die EU-Kommission zunächst einer Anhörung im Europäischen Parlament stellen und ihre Eignung und Befähigung für das vorgeschlagene Amt unter Beweis stellen.",
+        "Diese Anhörung führt in der Regel der entsprechende Ausschuss des Europäischen Parlaments durch und alle Anhörungen werden per Web-Stream über die Website des Europäischen Parlaments auch öffentlich gemacht.",
+        "Erst nach der erfolgreich bestandenen Anhörung kann der Kandidat zum Mitglied der EU-Kommission gewählt werden, auch dies geschieht durch das Europäische Parlament (Plenum)."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 127,
+          "original": "EU-Kommission",
+          "alternativeSuggestions": [
+            "Parlaments",
+            "Kommission",
+            "Dezember",
+            "Kandidaten"
+          ]
+        },
+        {
+          "wordIndex": 44,
+          "original": "Bildung",
+          "alternativeSuggestions": [
+            "Kraft",
+            "Beweis",
+            "Anhörungen",
+            "Web-Stream"
+          ]
+        },
+        {
+          "wordIndex": 123,
+          "original": "Kandidat",
+          "alternativeSuggestions": [
+            "Exekutive",
+            "Mitglied",
+            "Parlament",
+            "EU-Rechtsetzung"
+          ]
+        },
+        {
+          "wordIndex": 70,
+          "original": "Anhörung",
+          "alternativeSuggestions": [
+            "Kandidaten",
+            "Parlament",
+            "Anhörungen",
+            "Wahl"
+          ]
+        },
+        {
+          "wordIndex": 98,
+          "original": "Parlaments",
+          "alternativeSuggestions": [
+            "Regel",
+            "Befähigung",
+            "Dezember",
+            "EU-Rechtsetzung"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "1061",
+      "type": "paragraph",
+      "text": "Die Aufgaben des Europäischen Parlaments sind in Art. 14 EU-Vertrag beschrieben. Demzufolge wird das Parlament gemeinsam mit dem Rat als Gesetzgeber tätig, übt gemeinsam mit ihm die Haushaltsbefugnisse aus und nimmt die politische Kontrolle wahr. Des Weiteren soll es beratend tätig werden und den Kommissionspräsidenten wählen.",
+      "sentences": [
+        "Die Aufgaben des Europäischen Parlaments sind in Art.",
+        "14 EU-Vertrag beschrieben.",
+        "Demzufolge wird das Parlament gemeinsam mit dem Rat als Gesetzgeber tätig, übt gemeinsam mit ihm die Haushaltsbefugnisse aus und nimmt die politische Kontrolle wahr.",
+        "Des Weiteren soll es beratend tätig werden und den Kommissionspräsidenten wählen."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 7,
+          "original": "Art",
+          "alternativeSuggestions": [
+            "Kommissionspräsidenten",
+            "Parlament",
+            "Weiteren",
+            "Aufgaben"
+          ]
+        },
+        {
+          "wordIndex": 21,
+          "original": "Gesetzgeber",
+          "alternativeSuggestions": [
+            "Aufgaben",
+            "Weiteren",
+            "Rat",
+            "Kontrolle"
+          ]
+        },
+        {
+          "wordIndex": 1,
+          "original": "Aufgaben",
+          "alternativeSuggestions": [
+            "Haushaltsbefugnisse",
+            "Art",
+            "Kontrolle",
+            "Parlaments"
+          ]
+        },
+        {
+          "wordIndex": 34,
+          "original": "Kontrolle",
+          "alternativeSuggestions": [
+            "Parlament",
+            "Weiteren",
+            "Rat",
+            "Parlaments"
+          ]
+        },
+        {
+          "wordIndex": 19,
+          "original": "Rat",
+          "alternativeSuggestions": [
+            "Weiteren",
+            "Kommissionspräsidenten",
+            "Aufgaben",
+            "EU-Vertrag"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "1062",
+      "type": "paragraph",
+      "text": "Das Parlament teilt sich die Gesetzgebungsfunktion mit dem Rat der Europäischen Union, es nimmt also europäische Gesetze (Richtlinien, Verordnungen, Entscheidungen) an. In den meisten Politikfeldern gilt dafür seit dem Vertrag von Lissabon das sogenannte ordentliche Gesetzgebungsverfahren (Art. 294 AEU-Vertrag), bei dem Parlament und Rat der EU gleichberechtigt sind und jeweils in zwei Lesungen Änderungen an einem von der Europäischen Kommission vorgeschlagenen Gesetzestext einbringen können. Bei Uneinigkeit müssen sich Rat und Parlament in dritter Lesung in einem Vermittlungsausschuss einigen. Auch um den hohen Zeitaufwand dieses Verfahrens zu umgehen, werden jedoch immer mehr Gesetzesvorschläge in informellen Trilogverfahren verhandelt, um dann bereits in erster Lesung beschlossen werden zu können: zwischen 2004 und 2009 etwa traf dies auf 72 % aller Gesetzesentwürfe zu, im Vergleich zu 33 % zwischen 1999 und 2004.",
+      "sentences": [
+        "Das Parlament teilt sich die Gesetzgebungsfunktion mit dem Rat der Europäischen Union, es nimmt also europäische Gesetze (Richtlinien, Verordnungen, Entscheidungen) an.",
+        "In den meisten Politikfeldern gilt dafür seit dem Vertrag von Lissabon das sogenannte ordentliche Gesetzgebungsverfahren (Art. 294 AEU-Vertrag), bei dem Parlament und Rat der EU gleichberechtigt sind und jeweils in zwei Lesungen Änderungen an einem von der Europäischen Kommission vorgeschlagenen Gesetzestext einbringen können.",
+        "Bei Uneinigkeit müssen sich Rat und Parlament in dritter Lesung in einem Vermittlungsausschuss einigen.",
+        "Auch um den hohen Zeitaufwand dieses Verfahrens zu umgehen, werden jedoch immer mehr Gesetzesvorschläge in informellen Trilogverfahren verhandelt, um dann bereits in erster Lesung beschlossen werden zu können: zwischen 2004 und 2009 etwa traf dies auf 72 % aller Gesetzesentwürfe zu, im Vergleich zu 33 % zwischen 1999 und 2004."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 24,
+          "original": "Politikfeldern",
+          "alternativeSuggestions": [
+            "Gesetzesentwürfe",
+            "Gesetze",
+            "Verfahrens",
+            "Vertrag"
+          ]
+        },
+        {
+          "wordIndex": 85,
+          "original": "Verfahrens",
+          "alternativeSuggestions": [
+            "Kommission",
+            "Union",
+            "Gesetzesvorschläge",
+            "Verordnungen"
+          ]
+        },
+        {
+          "wordIndex": 18,
+          "original": "Verordnungen",
+          "alternativeSuggestions": [
+            "Vergleich",
+            "Verfahrens",
+            "Richtlinien",
+            "Lesung"
+          ]
+        },
+        {
+          "wordIndex": 60,
+          "original": "Kommission",
+          "alternativeSuggestions": [
+            "Vergleich",
+            "Uneinigkeit",
+            "AEU-Vertrag",
+            "Entscheidungen"
+          ]
+        },
+        {
+          "wordIndex": 71,
+          "original": "Parlament",
+          "alternativeSuggestions": [
+            "Änderungen",
+            "Vergleich",
+            "Vertrag",
+            "Richtlinien"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "1063",
+      "type": "paragraph",
+      "text": "Insgesamt ähnelt das Gesetzgebungsverfahren dem deutschen Gesetzgebungsverfahren zwischen Bundestag und Bundesrat. Allerdings besitzt das Europäische Parlament – anders als der Bundestag – kein unmittelbares Initiativrecht und kann daher keine eigenen Gesetzesvorlagen einbringen. Dieses Initiativrecht hat auf EU-Ebene nur die EU-Kommission, die nach Art. 225 AEU-Vertrag allerdings vom Europäischen Parlament zu dessen Ausübung aufgefordert werden kann.",
+      "sentences": [
+        "Insgesamt ähnelt das Gesetzgebungsverfahren dem deutschen Gesetzgebungsverfahren zwischen Bundestag und Bundesrat.",
+        "Allerdings besitzt das Europäische Parlament – anders als der Bundestag – kein unmittelbares Initiativrecht und kann daher keine eigenen Gesetzesvorlagen einbringen.",
+        "Dieses Initiativrecht hat auf EU-Ebene nur die EU-Kommission, die nach Art. 225 AEU-Vertrag allerdings vom Europäischen Parlament zu dessen Ausübung aufgefordert werden kann."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 15,
+          "original": "Parlament",
+          "alternativeSuggestions": [
+            "Bundestag",
+            "Art",
+            "Bundesrat",
+            "EU-Kommission"
+          ]
+        },
+        {
+          "wordIndex": 10,
+          "original": "Bundesrat",
+          "alternativeSuggestions": [
+            "Initiativrecht",
+            "Gesetzesvorlagen",
+            "Art",
+            "Ausübung"
+          ]
+        },
+        {
+          "wordIndex": 34,
+          "original": "EU-Ebene",
+          "alternativeSuggestions": [
+            "Gesetzesvorlagen",
+            "EU-Kommission",
+            "Gesetzgebungsverfahren",
+            "Parlament"
+          ]
+        },
+        {
+          "wordIndex": 6,
+          "original": "Gesetzgebungsverfahren",
+          "alternativeSuggestions": [
+            "Bundesrat",
+            "Art",
+            "Initiativrecht",
+            "EU-Ebene"
+          ]
+        },
+        {
+          "wordIndex": 22,
+          "original": "Initiativrecht",
+          "alternativeSuggestions": [
+            "Ausübung",
+            "Art",
+            "AEU-Vertrag",
+            "Gesetzgebungsverfahren"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": "1152",
+      "type": "paragraph",
+      "text": "King wurde als Sohn der Lehrerin Alberta Christine Williams King (1904–1974) und ihres Ehemanns Martin Luther King (1897–1984, ursprünglich Michael King), des 2. Predigers der baptistischen Ebenezer-Gemeinde Atlanta geboren. Sein Vater war vor seiner Tätigkeit als Pfarrer unter anderem Hilfsmechaniker in einer Autowerkstatt und Feuerwehrmann bei einer Eisenbahngesellschaft. King Senior hatte seinen Abschluss an einer Abendschule nachgeholt und war bereits vor der Geburt von King junior Vorsitzender der National Association for the Advancement of Colored People (NAACP – Nationale Gesellschaft zur Förderung farbiger Menschen) in Atlanta.",
+      "sentences": [
+        "King wurde als Sohn der Lehrerin Alberta Christine Williams King (1904–1974) und ihres Ehemanns Martin Luther King (1897–1984, ursprünglich Michael King), des 2. Predigers der baptistischen Ebenezer-Gemeinde Atlanta geboren.",
+        "Sein Vater war vor seiner Tätigkeit als Pfarrer unter anderem Hilfsmechaniker in einer Autowerkstatt und Feuerwehrmann bei einer Eisenbahngesellschaft.",
+        "King Senior hatte seinen Abschluss an einer Abendschule nachgeholt und war bereits vor der Geburt von King junior Vorsitzender der National Association for the Advancement of Colored People (NAACP – Nationale Gesellschaft zur Förderung farbiger Menschen) in Atlanta."
+      ],
+      "clozes": [
+        {
+          "wordIndex": 82,
+          "original": "Menschen",
+          "alternativeSuggestions": [
+            "Vater",
+            "Förderung",
+            "Geburt",
+            "Pfarrer"
+          ]
+        },
+        {
+          "wordIndex": 78,
+          "original": "Gesellschaft",
+          "alternativeSuggestions": [
+            "Vater",
+            "1897–1984",
+            "Lehrerin",
+            "Förderung"
+          ]
+        },
+        {
+          "wordIndex": 66,
+          "original": "Vorsitzender",
+          "alternativeSuggestions": [
+            "Ebenezer-Gemeinde",
+            "Abschluss",
+            "Geburt",
+            "Menschen"
+          ]
+        },
+        {
+          "wordIndex": 80,
+          "original": "Förderung",
+          "alternativeSuggestions": [
+            "Vorsitzender",
+            "Ebenezer-Gemeinde",
+            "Ehemanns",
+            "Feuerwehrmann"
+          ]
+        },
+        {
+          "wordIndex": 30,
+          "original": "Vater",
+          "alternativeSuggestions": [
+            "Sohn",
+            "Feuerwehrmann",
+            "Abendschule",
+            "Geburt"
+          ]
+        }
+      ]
+    }
+  ]
+}

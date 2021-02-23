@@ -1,0 +1,31 @@
+# path to the source file
+input_file: study2_mw.xlsx
+
+# name of the respective excel sheets within the source file
+paragraph_sheet: use_for_study
+simple_language_sheet: simple_language
+
+# the columns with the ids and texts (the first row is interpreted as a header row and will be ignored)
+id_column: A
+text_column: B
+
+# target directory for the processed texts
+output_dir: data/texts_study2_MW
+
+# should every sentence in each text also be treated as a text itself?
+# possible values:
+# "all": all sentences in the paragraphs will be used in addition to the paragraphs
+# "none": only the paragraphs will be used
+# a number: a random sample of the given size will be drawn from all sentences in the paragraphs
+include_sentences: none
+
+# amount of deleted words & alternative suggestions for the cloze test
+clozes_per_text: 5
+alternative_suggestions_per_cloze: 4
+
+# amount of items in a paragraph & sentence (ignored if include_all_sentences is "none") session
+paragraph_session_length: 2
+sentence_session_length: 0
+
+# how to access the server via ssh
+ssh_access: adminuser@text-stat.qu.tu-berlin.de
