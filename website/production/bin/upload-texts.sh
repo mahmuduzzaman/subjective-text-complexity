@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 # load DB admin password from env
-ENV_FILE="/home/adminuser/production/.env"
+ENV_FILE="/home/adminuser/subjective-text-complexity/website/.env"
 export $(cat $ENV_FILE | xargs)
 
 encoded=$(echo "admin:${COUCHDB_PASSWORD}" | base64)
@@ -20,7 +20,7 @@ for database in "items" "sessions" "participants" "ratings" "feedback" ; do
     exit 1
   fi
 
-  CONTENT="texts/${database}.json"
+  CONTENT="${database}.json"
   if [[ -f "$CONTENT" ]]; then
     # upload content to DB
     curl -X POST localhost:5984/${database}/_bulk_docs -H 'Content-Type: application/json' -d @$CONTENT

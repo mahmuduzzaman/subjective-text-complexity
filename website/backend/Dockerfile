@@ -1,13 +1,14 @@
 FROM node:12.16-alpine3.9 as builder
 WORKDIR /app
 
-ARG STUDY_IS_OPEN
+# ENV STUDY_IS_OPEN True
 
 # copy package.json first to avoid unnecessary npm install
-COPY package.json /app 
+COPY package*.json ./ 
 RUN npm install
 
-COPY . /app
-ENTRYPOINT ["node", "/app/server.js" ]
-
+RUN apk add --no-cache bash coreutils grep sed
+COPY . .
 EXPOSE 8080
+
+CMD ["node", "/app/server.js" ]

@@ -4,8 +4,11 @@ const hash = require('object-hash')
 const newPouchDb = require('./lib/new-pouch-db')
 
 const studyIsOpen = process.env.STUDY_IS_OPEN
+console.log('start '+studyIsOpen)
 
 if (studyIsOpen) {
+  console.log('studyIsOpen')
+
   const app = express()
   app.use(bodyParser.urlencoded({ extended: true }))
   app.use(bodyParser.json())
@@ -205,4 +208,7 @@ if (studyIsOpen) {
 
   process.on('SIGTERM', shutdown)
   process.on('SIGINT', shutdown)
+}else{
+console.log(' Study is not open')
+
 }
