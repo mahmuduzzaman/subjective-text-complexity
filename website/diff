@@ -1,0 +1,187 @@
+diff --git a/.github/workflows/deploy.yml b/.github/workflows/deploy.yml
+index 8929db9..1faba30 100644
+--- a/.github/workflows/deploy.yml
++++ b/.github/workflows/deploy.yml
+@@ -20,7 +20,8 @@ jobs:
+     env:
+       SERVER: text-stat.qu.tu-berlin.de
+       USER: adminuser
+-      STUDY_IS_OPEN: True
++      STUDY_IS_OPEN: 'true'
++
+     steps:
+       - name: Copy website
+         uses: appleboy/scp-action@edc8ec9
+@@ -52,7 +53,6 @@ jobs:
+           user: ${{ env.USER }}
+           key: ${{ secrets.PRIVATE_SSH_KEY }}
+       - name: Deploy
+-        if: ${{ env.STUDY_IS_OPEN }}
+         uses: fifsky/ssh-action@1f1f1ea
+         with:
+           command: |
+diff --git a/.gitignore b/.gitignore
+index bee35b3..1475f5a 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -19,7 +19,6 @@ npm-debug.log*
+ yarn-debug.log*
+ yarn-error.log*
+ 
+-*.env
+ *.pyc
+ 
+ data/results/*
+diff --git a/README.md b/README.md
+index a34befc..9516fa6 100644
+--- a/README.md
++++ b/README.md
+@@ -1,6 +1,6 @@
+ # subjective-text-complexity
+ 
+-**Note:** Most of the functionality of the website, as well as automatic deployment, is currently disabled since the study is finished. To bring it back to working mode, change the variable `STUDY_IS_OPEN` in `.github/workflows/deploy.yml` to `True`.
++**Note:** Most of the functionality of the website, as well as automatic deployment, is currently disabled since the study is finished. To bring it back to working mode, change the variable `STUDY_IS_OPEN` in `.github/workflows/deploy.yml` and `website/.env` to `"true"`.
+ 
+ ## Requirements
+ 
+diff --git a/website/.env b/website/.env
+new file mode 100644
+index 0000000..35cff4c
+--- /dev/null
++++ b/website/.env
+@@ -0,0 +1,2 @@
++STUDY_IS_OPEN="true"
++COUCHDB_PASSWORD=pOq1QOD3AdwGIwNMF8p0
+diff --git a/website/backend/Dockerfile b/website/backend/Dockerfile
+index a02d12f..e454c4e 100644
+--- a/website/backend/Dockerfile
++++ b/website/backend/Dockerfile
+@@ -1,7 +1,8 @@
+ FROM node:12.16-alpine3.9 as builder
+ WORKDIR /app
+ 
+-# ENV STUDY_IS_OPEN True
++#ARG STUDY_IS_OPEN
++#ENV STUDY_IS_OPEN=$STUDY_IS_OPEN
+ 
+ # copy package.json first to avoid unnecessary npm install
+ COPY package*.json ./ 
+diff --git a/website/backend/server.js b/website/backend/server.js
+index 121d663..4ae72f3 100644
+--- a/website/backend/server.js
++++ b/website/backend/server.js
+@@ -3,17 +3,23 @@ const bodyParser = require('body-parser')
+ const hash = require('object-hash')
+ const newPouchDb = require('./lib/new-pouch-db')
+ 
+-const studyIsOpen = process.env.STUDY_IS_OPEN
+-console.log('start '+studyIsOpen)
++const studyIsOpen = process.env.STUDY_IS_OPEN === 'true'
+ 
+-if (studyIsOpen) {
+-  console.log('studyIsOpen')
++const app = express()
++app.use(bodyParser.urlencoded({ extended: true }))
++app.use(bodyParser.json())
++app.use(bodyParser.raw())
+ 
+-  const app = express()
+-  app.use(bodyParser.urlencoded({ extended: true }))
+-  app.use(bodyParser.json())
+-  app.use(bodyParser.raw())
++const shutdown = () => {
++  console.log('Shutting down backend server...')
++  server.close(() => {
++    console.log('Backend server shut down.')
++  })
++  //eslint-disable-next-line  no-process-exit
++  process.exit(0)
++}
+ 
++if (studyIsOpen) {
+   const [participants, ratings, items, sessions, feedback] = [
+     'participants',
+     'ratings',
+@@ -34,15 +40,6 @@ if (studyIsOpen) {
+       })
+   }
+ 
+-  const shutdown = () => {
+-    console.log('Shutting down backend server...')
+-    server.close(() => {
+-      console.log('Backend server shut down.')
+-    })
+-    //eslint-disable-next-line  no-process-exit
+-    process.exit(0)
+-  }
+-
+   const censorConfirmationTokens = participant => {
+     return {
+       ...participant,
+@@ -198,17 +195,23 @@ if (studyIsOpen) {
+         res.send(e)
+       })
+   })
++}
+ 
+-  console.log('Starting backend service...')
++console.log('Starting backend service...')
+ 
+-  const port = 8080
+-  const server = app.listen(port, () => {
+-    console.log(`Backend server listening on Port ${port}`)
+-  })
++const port = 8080
++const server = app.listen(port, () => {
++  console.log(`Backend server listening on Port ${port}`)
++})
+ 
++<<<<<<< HEAD
++process.on('SIGTERM', shutdown)
++process.on('SIGINT', shutdown)
++=======
+   process.on('SIGTERM', shutdown)
+   process.on('SIGINT', shutdown)
+ }else{
+ console.log(' Study is not open')
+ 
+ }
++>>>>>>> reopen-study
+diff --git a/website/docker-compose.yml b/website/docker-compose.yml
+index 2cfbc6c..a0d3947 100644
+--- a/website/docker-compose.yml
++++ b/website/docker-compose.yml
+@@ -18,6 +18,8 @@ services:
+     command: ['node', 'backend/server.js']
+     depends_on:
+       - couchdb
++    environment:
++      STUDY_IS_OPEN: ${STUDY_IS_OPEN}
+   frontend:
+     container_name: frontend
+     image: node:12.16-alpine3.9
+@@ -29,6 +31,8 @@ services:
+     command: ['npm', 'start']
+     depends_on:
+       - backend
++    environment:
++      REACT_APP_STUDY_IS_OPEN: ${STUDY_IS_OPEN}
+   nginx:
+     container_name: nginx
+     image: nginx:1.17.8
+diff --git a/website/frontend/src/index.js b/website/frontend/src/index.js
+index 6d20c12..0af82a4 100644
+--- a/website/frontend/src/index.js
++++ b/website/frontend/src/index.js
+@@ -42,7 +42,7 @@ const pouchItems = createDatabase('items')
+ 
+ const emptyParticipant = { completedSessions: [] }
+ 
+-//const studyIsOpen = process.env.STUDY_IS_OPEN
++//const studyIsOpen = process.env.REACT_APP_STUDY_IS_OPEN === 'true'
+ const studyIsOpen = true
+ 
+ const App = () => {
+diff --git a/website/production/certbot/.keep b/website/production/certbot/.keep
+new file mode 100644
+index 0000000..e69de29

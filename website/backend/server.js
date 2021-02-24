@@ -3,23 +3,17 @@ const bodyParser = require('body-parser')
 const hash = require('object-hash')
 const newPouchDb = require('./lib/new-pouch-db')
 
-const studyIsOpen = process.env.STUDY_IS_OPEN === 'true'
-
-const app = express()
-app.use(bodyParser.urlencoded({ extended: true }))
-app.use(bodyParser.json())
-app.use(bodyParser.raw())
-
-const shutdown = () => {
-  console.log('Shutting down backend server...')
-  server.close(() => {
-    console.log('Backend server shut down.')
-  })
-  //eslint-disable-next-line  no-process-exit
-  process.exit(0)
-}
+const studyIsOpen = process.env.STUDY_IS_OPEN
+console.log('start '+studyIsOpen)
 
 if (studyIsOpen) {
+  console.log('studyIsOpen')
+
+  const app = express()
+  app.use(bodyParser.urlencoded({ extended: true }))
+  app.use(bodyParser.json())
+  app.use(bodyParser.raw())
+
   const [participants, ratings, items, sessions, feedback] = [
     'participants',
     'ratings',
@@ -38,6 +32,15 @@ if (studyIsOpen) {
         console.error(e)
         return e
       })
+  }
+
+  const shutdown = () => {
+    console.log('Shutting down backend server...')
+    server.close(() => {
+      console.log('Backend server shut down.')
+    })
+    //eslint-disable-next-line  no-process-exit
+    process.exit(0)
   }
 
   const censorConfirmationTokens = participant => {
@@ -195,23 +198,17 @@ if (studyIsOpen) {
         res.send(e)
       })
   })
-}
 
-console.log('Starting backend service...')
+  console.log('Starting backend service...')
 
-const port = 8080
-const server = app.listen(port, () => {
-  console.log(`Backend server listening on Port ${port}`)
-})
+  const port = 8080
+  const server = app.listen(port, () => {
+    console.log(`Backend server listening on Port ${port}`)
+  })
 
-<<<<<<< HEAD
-process.on('SIGTERM', shutdown)
-process.on('SIGINT', shutdown)
-=======
   process.on('SIGTERM', shutdown)
   process.on('SIGINT', shutdown)
 }else{
 console.log(' Study is not open')
 
 }
->>>>>>> reopen-study
